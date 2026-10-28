@@ -336,6 +336,9 @@ def build(c, verbose=True):
                          last_played=MAX(records.last_played, excluded.last_played)""",
                   (key, r["kind"], r["artist"], r["title"], r["year"], r["rgid"], r["release_id"], status, by,
                    r["reason"], json.dumps(r["tracks"]), json.dumps(heard), r["first"], r["last"]))
+    stale = [k for (k,) in c.execute("SELECT key FROM records WHERE status='pending' AND manual=0") if k not in found]
+    for k in stale:                       # e.g. a "45?" that became an LP side once more songs played
+        c.execute("DELETE FROM records WHERE key=?", (k,))
     c.commit()
     if verbose:
         for line in changed:
