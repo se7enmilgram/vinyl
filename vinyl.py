@@ -492,31 +492,56 @@ def find_album(c, artist, album):
     return None
 
 
-def add_album(c, artist, album, dry=False):
-    """Add one owned record by name. Returns (status, description)."""
-    rg = find_album(c, artist, album)
+UUID = re.compile(r"^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$")
+
+
+def review_reason(rg, album, rel):
+    """Why a name match shouldn't be added unattended (None = looks safe)."""
+    year = int((rg.get("first-release-date") or "0")[:4] or 0)
+    comp = "Compilation" in (rg.get("secondary-types") or [])
+    if not rel["vinyl"]:
+        return "no vinyl release on MusicBrainz (likely a CD/digital-era edition)"
+    if comp and year >= 1990:
+        return f"compilation dated {year}"
+    if title_tier(rg.get("title"), album) < 2:
+        return f'title only loosely matches ("{rg.get("title")}")'
+    return None
+
+
+def add_album(c, artist, album, dry=False, rgid=None, force=False):
+    """Add one owned record by name (or pinned MusicBrainz release-group id).
+    Returns (status, description); status 'review' = found but not trusted enough to add unattended."""
+    if rgid:
+        rg = mb(c, f"release-group/{rgid}", inc="artist-credits")
+    else:
+        rg = find_album(c, artist, album)
     if not rg:
         return "notfound", f"{artist} — {album}"
     credit = " ".join(x.get("name", "") + x.get("joinphrase", "") for x in rg.get("artist-credit", [])).strip() or artist
+    credit = re.sub(r"\s+", " ", credit)
     key = f"rg:{rg['id']}"
+    year = (rg.get("first-release-date") or "")[:4]
+    desc = f"{credit} — {rg['title']} ({year or '?'}, {rg.get('primary-type')})"
     old = c.execute("SELECT status FROM records WHERE key=?", (key,)).fetchone()
     if old and old["status"] == "confirmed":
-        return "have", f"{credit} — {rg['title']}"
+        return "have", desc
+    rel = best_release(c, rg["id"], []) or {"release_id": None, "tracks": [], "vinyl": False, "year": None}
+    why = None if (rgid or force) else review_reason(rg, album, rel)
+    if why:
+        return "review", f"{desc}  <- REVIEW: {why}"
     if dry:
-        return "would-add", f"{credit} — {rg['title']} ({rg.get('first-release-date', '')[:4] or '?'}, {rg.get('primary-type')})"
-    rel = best_release(c, rg["id"], []) or {"release_id": None, "tracks": [], "year": None}
+        return "would-add", desc
     kind = '7"' if rg.get("primary-type") == "Single" else "LP"
     c.execute("""INSERT INTO records (key, kind, artist, title, year, rgid, release_id, status, confirmed_by, tracks, manual)
                  VALUES (?,?,?,?,?,?,?, 'confirmed', 'manual', ?, 1)
                  ON CONFLICT(key) DO UPDATE SET status='confirmed', confirmed_by='manual'""",
-              (key, kind, credit, rg["title"], (rg.get("first-release-date") or "")[:4] or rel["year"], rg["id"],
-               rel["release_id"], json.dumps(rel["tracks"])))
+              (key, kind, credit, rg["title"], year or rel["year"], rg["id"], rel["release_id"], json.dumps(rel["tracks"])))
     c.commit()
-    return "added", f"{credit} — {rg['title']} ({len(rel['tracks'])} tracks)"
+    return "added", f"{desc} [{len(rel['tracks'])} tracks]"
 
 
 def cmd_add(a, c):
-    status, desc = add_album(c, a.artist, a.album)
+    status, desc = add_album(c, a.artist, a.album, force=True)   # explicit single add: trust the user
     print(f"{status}: {desc}")
     if status == "notfound":
         sys.exit(1)
@@ -529,15 +554,19 @@ def cmd_import(a, c):
     skipped = [l for l in lines if l.startswith("?")]
     tally = {}
     for l in todo:
-        artist, album = (x.strip() for x in l.split("|", 1))
+        parts = [x.strip() for x in l.split("|")]
+        artist, album = parts[0], parts[1]
+        rgid = next((p[3:] for p in parts[2:] if p.startswith("rg=") and UUID.match(p[3:])), None)
         try:
-            status, desc = add_album(c, artist, album, dry=not a.apply)
+            status, desc = add_album(c, artist, album, dry=not a.apply, rgid=rgid, force=a.include_review)
         except MBError as e:
             status, desc = "error", f"{artist} — {album}: {e}"
         tally[status] = tally.get(status, 0) + 1
-        mark = {"added": "+", "would-add": "+", "have": "=", "notfound": "?", "error": "!"}[status]
+        mark = {"added": "+", "would-add": "+", "have": "=", "notfound": "?", "error": "!", "review": "~"}[status]
         print(f"{mark} {desc}" + ("" if status != "notfound" else "   <- NOT FOUND: fix spelling in the file"))
     print("\n" + ", ".join(f"{v} {k}" for k, v in tally.items()) + (f", {len(skipped)} unconfirmed (?) skipped" if skipped else ""))
+    if tally.get("review"):
+        print("~ = needs a look: pin the right one with '| rg=<musicbrainz id>' on its line, or add all with --include-review")
     if not a.apply:
         print("dry run; re-run with --apply to add them")
 
@@ -572,7 +601,9 @@ def main():
     s = sp.add_parser("add", help="add a record you own by artist + album"); s.add_argument("artist"); s.add_argument("album")
     s.set_defaults(f=cmd_add)
     s = sp.add_parser("import", help='bulk add "Artist | Album" lines from a file (dry run unless --apply)')
-    s.add_argument("file"); s.add_argument("--apply", action="store_true"); s.set_defaults(f=cmd_import)
+    s.add_argument("file"); s.add_argument("--apply", action="store_true")
+    s.add_argument("--include-review", action="store_true", help="also add matches flagged for review")
+    s.set_defaults(f=cmd_import)
     s = sp.add_parser("have", help="do I have this song/artist?"); s.add_argument("query"); s.set_defaults(f=cmd_have)
     s = sp.add_parser("publish", help="write docs/catalog.json, commit, push"); s.add_argument("--dry-run", action="store_true")
     s.set_defaults(f=lambda a, c: publish(c, a.dry_run))
