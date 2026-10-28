@@ -1208,48 +1208,98 @@
      "heard": true
     },
     {
-     "n": "B1",
+     "n": "A5",
      "title": "Dark River",
      "heard": false
     },
     {
-     "n": "B2",
+     "n": "B1",
      "title": "Where Even the Darkness Is Something to See",
      "heard": false
     },
     {
-     "n": "B3",
+     "n": "B2",
      "title": "Teenage Lightning 2",
      "heard": false
     },
     {
-     "n": "C1",
+     "n": "B3",
      "title": "Windowpane",
      "heard": false
     },
     {
-     "n": "C2",
-     "title": "Further Back and Faster",
-     "heard": false
-    },
-    {
-     "n": "D1",
-     "title": "Titan Arch",
-     "heard": false
-    },
-    {
-     "n": "D2",
+     "n": "B4",
      "title": "Chaostrophy",
      "heard": false
     },
     {
-     "n": "D3",
+     "n": "C1",
+     "title": "Further Back and Faster",
+     "heard": false
+    },
+    {
+     "n": "C2",
+     "title": "Titan Arch",
+     "heard": false
+    },
+    {
+     "n": "C3",
      "title": "Lorca Not Orca",
      "heard": false
     },
     {
-     "n": "D4",
+     "n": "C4",
      "title": "Love’s Secret Domain",
+     "heard": false
+    },
+    {
+     "n": "D1",
+     "title": "Disco Hospital (unedited)",
+     "heard": true
+    },
+    {
+     "n": "D2",
+     "title": "Teenage Lightning (gtr)",
+     "heard": false
+    },
+    {
+     "n": "D3",
+     "title": "Snow (Demonic Apollo A version)",
+     "heard": false
+    },
+    {
+     "n": "D4",
+     "title": "Dark River (alternative ruff from Point Studio mix)",
+     "heard": false
+    },
+    {
+     "n": "E1",
+     "title": "Teenage Lightning (various)",
+     "heard": false
+    },
+    {
+     "n": "E2",
+     "title": "Further Back and Faster (didgeridoo)",
+     "heard": false
+    },
+    {
+     "n": "F1",
+     "title": "Snow (Demonic Apollo B version)",
+     "heard": false
+    },
+    {
+     "n": "F2",
+     "title": "Carvers and Gilders (Chaostrophy)",
+     "heard": false
+    },
+    {
+     "n": "F3",
+     "title": "The Dark Age of Love (Balance)",
+     "heard": false
+    },
+    {
+     "n": "F4",
+     "title": "Love’s Secret Domain (early instrumental)",
      "heard": false
     }
    ],
@@ -2047,28 +2097,33 @@
    "cover": "covers/b0866510-7c36-32ed-a03a-f71798ece1ed.jpg",
    "tracks": [
     {
-     "n": "A1",
-     "title": "Love To Love You Baby",
+     "n": "A",
+     "title": "Love to Love You Baby",
      "heard": false
     },
     {
      "n": "B1",
-     "title": "Lady Of The Night",
+     "title": "Full of Emptiness",
      "heard": false
     },
     {
      "n": "B2",
-     "title": "Pandora's Box",
+     "title": "Need-A-Man Blues",
      "heard": false
     },
     {
      "n": "B3",
-     "title": "Need-A-Man-Blues",
+     "title": "Whispering Waves",
      "heard": false
     },
     {
      "n": "B4",
-     "title": "The Hostage",
+     "title": "Pandora’s Box",
+     "heard": false
+    },
+    {
+     "n": "B5",
+     "title": "Full of Emptiness (reprise)",
      "heard": false
     }
    ],
@@ -7212,63 +7267,68 @@
    "cover": "covers/05ced530-5077-3a59-9c27-e2d9fe497598.jpg",
    "tracks": [
     {
-     "n": "A1",
+     "n": "1",
      "title": "Rock This Town",
      "heard": false
     },
     {
-     "n": "A2",
+     "n": "2",
      "title": "Built for Speed",
      "heard": false
     },
     {
-     "n": "A3",
+     "n": "3",
      "title": "Rev It Up & Go",
      "heard": false
     },
     {
-     "n": "A4",
+     "n": "4",
      "title": "Stray Cat Strut",
      "heard": false
     },
     {
-     "n": "A5",
+     "n": "5",
      "title": "Little Miss Prissy",
      "heard": false
     },
     {
-     "n": "A6",
+     "n": "6",
      "title": "Rumble in Brighton",
      "heard": false
     },
     {
-     "n": "B1",
+     "n": "7",
      "title": "Runaway Boys",
      "heard": false
     },
     {
-     "n": "B2",
+     "n": "8",
      "title": "Lonely Summer Nights",
      "heard": false
     },
     {
-     "n": "B3",
+     "n": "9",
      "title": "Double Talkin' Baby",
      "heard": false
     },
     {
-     "n": "B4",
+     "n": "10",
      "title": "You Don't Believe Me",
      "heard": false
     },
     {
-     "n": "B5",
+     "n": "11",
      "title": "Jeanie, Jeanie, Jeanie",
      "heard": false
     },
     {
-     "n": "B6",
+     "n": "12",
      "title": "Baby Blue Eyes",
+     "heard": false
+    },
+    {
+     "n": "13",
+     "title": "What's Going Down (Cross That Bridge)",
      "heard": false
     }
    ],
@@ -8023,62 +8083,67 @@
    "tracks": [
     {
      "n": "A1",
-     "title": "A Hard Day’s Night (vocal)",
+     "title": "A Hard Day's Night",
      "heard": false
     },
     {
      "n": "A2",
-     "title": "Tell Me Why (vocal)",
+     "title": "I Should Have Known Better",
      "heard": false
     },
     {
      "n": "A3",
-     "title": "I’ll Cry Instead (vocal)",
+     "title": "If I Fell",
      "heard": false
     },
     {
      "n": "A4",
-     "title": "I Should Have Known Better (instrumental)",
+     "title": "I'm Happy Just to Dance With You",
      "heard": false
     },
     {
      "n": "A5",
-     "title": "I’m Happy Just to Dance With You (vocal)",
+     "title": "And I Love Her",
      "heard": false
     },
     {
      "n": "A6",
-     "title": "And I Love Her (instrumental)",
+     "title": "Tell Me Why",
+     "heard": false
+    },
+    {
+     "n": "A7",
+     "title": "Can't Buy Me Love",
      "heard": false
     },
     {
      "n": "B1",
-     "title": "I Should Have Known Better (vocal)",
+     "title": "Any Time at All",
      "heard": false
     },
     {
      "n": "B2",
-     "title": "If I Fell (vocal)",
+     "title": "I'll Cry Instead",
      "heard": false
     },
     {
      "n": "B3",
-     "title": "And I Love Her (vocal)",
+     "title": "Things We Said Today",
      "heard": false
     },
     {
      "n": "B4",
-     "title": "Ringo’s Theme (This Boy) (instrumental)",
+     "title": "When I Get Home",
      "heard": false
     },
     {
      "n": "B5",
-     "title": "Can’t Buy Me Love (vocal)",
+     "title": "You Can't Do That",
      "heard": false
     },
     {
      "n": "B6",
-     "title": "A Hard Day’s Night (instrumental)",
+     "title": "I'll Be Back",
      "heard": false
     }
    ],
@@ -8244,21 +8309,26 @@
     },
     {
      "n": "A3",
-     "title": "Love You To",
+     "title": "I’m Only Sleeping",
      "heard": false
     },
     {
      "n": "A4",
-     "title": "Here, There and Everywhere",
+     "title": "Love You To",
      "heard": false
     },
     {
      "n": "A5",
-     "title": "Yellow Submarine",
+     "title": "Here, There and Everywhere",
      "heard": false
     },
     {
      "n": "A6",
+     "title": "Yellow Submarine",
+     "heard": false
+    },
+    {
+     "n": "A7",
      "title": "She Said She Said",
      "heard": false
     },
@@ -8269,21 +8339,31 @@
     },
     {
      "n": "B2",
-     "title": "For No One",
+     "title": "And Your Bird Can Sing",
      "heard": false
     },
     {
      "n": "B3",
-     "title": "I Want to Tell You",
+     "title": "For No One",
      "heard": false
     },
     {
      "n": "B4",
-     "title": "Got to Get You Into My Life",
+     "title": "Doctor Robert",
      "heard": false
     },
     {
      "n": "B5",
+     "title": "I Want to Tell You",
+     "heard": false
+    },
+    {
+     "n": "B6",
+     "title": "Got to Get You Into My Life",
+     "heard": false
+    },
+    {
+     "n": "B7",
      "title": "Tomorrow Never Knows",
      "heard": false
     }
@@ -8512,66 +8592,151 @@
    "tracks": [
     {
      "n": "A1",
-     "title": "Birthday",
+     "title": "Back in the U.S.S.R.",
      "heard": false
     },
     {
      "n": "A2",
-     "title": "Yer Blues",
+     "title": "Dear Prudence",
      "heard": false
     },
     {
      "n": "A3",
-     "title": "Mother Nature’s Son",
+     "title": "Glass Onion",
      "heard": false
     },
     {
      "n": "A4",
-     "title": "Everybody’s Got Something to Hide Except Me and My Monkey",
+     "title": "Ob‐La‐Di, Ob‐La‐Da",
      "heard": false
     },
     {
      "n": "A5",
-     "title": "Sexy Sadie",
+     "title": "Wild Honey Pie",
      "heard": false
     },
     {
      "n": "A6",
-     "title": "Helter Skelter",
+     "title": "The Continuing Story of Bungalow Bill",
      "heard": false
     },
     {
      "n": "A7",
-     "title": "Long, Long, Long",
+     "title": "While My Guitar Gently Weeps",
+     "heard": false
+    },
+    {
+     "n": "A8",
+     "title": "Happiness Is a Warm Gun",
      "heard": false
     },
     {
      "n": "B1",
-     "title": "Revolution 1",
+     "title": "Martha My Dear",
      "heard": false
     },
     {
      "n": "B2",
-     "title": "Honey Pie",
+     "title": "I’m So Tired",
      "heard": false
     },
     {
      "n": "B3",
-     "title": "Savoy Truffle",
+     "title": "Blackbird",
      "heard": false
     },
     {
      "n": "B4",
-     "title": "Cry, Baby, Cry",
+     "title": "Piggies",
      "heard": false
     },
     {
      "n": "B5",
-     "title": "Revolution 9",
+     "title": "Rocky Raccoon",
      "heard": false
     },
     {
      "n": "B6",
+     "title": "Don’t Pass Me By",
+     "heard": false
+    },
+    {
+     "n": "B7",
+     "title": "Why Don’t We Do It in the Road?",
+     "heard": false
+    },
+    {
+     "n": "B8",
+     "title": "I Will",
+     "heard": false
+    },
+    {
+     "n": "B9",
+     "title": "Julia",
+     "heard": false
+    },
+    {
+     "n": "C1",
+     "title": "Birthday",
+     "heard": false
+    },
+    {
+     "n": "C2",
+     "title": "Yer Blues",
+     "heard": false
+    },
+    {
+     "n": "C3",
+     "title": "Mother Nature’s Son",
+     "heard": false
+    },
+    {
+     "n": "C4",
+     "title": "Everybody’s Got Something to Hide Except Me and My Monkey",
+     "heard": false
+    },
+    {
+     "n": "C5",
+     "title": "Sexy Sadie",
+     "heard": false
+    },
+    {
+     "n": "C6",
+     "title": "Helter Skelter",
+     "heard": false
+    },
+    {
+     "n": "C7",
+     "title": "Long, Long, Long",
+     "heard": false
+    },
+    {
+     "n": "D1",
+     "title": "Revolution 1",
+     "heard": false
+    },
+    {
+     "n": "D2",
+     "title": "Honey Pie",
+     "heard": false
+    },
+    {
+     "n": "D3",
+     "title": "Savoy Truffle",
+     "heard": false
+    },
+    {
+     "n": "D4",
+     "title": "Cry Baby Cry",
+     "heard": false
+    },
+    {
+     "n": "D5",
+     "title": "Revolution 9",
+     "heard": false
+    },
+    {
+     "n": "D6",
      "title": "Good Night",
      "heard": false
     }
@@ -8665,6 +8830,11 @@
     {
      "n": "B10",
      "title": "The End",
+     "heard": false
+    },
+    {
+     "n": "B11",
+     "title": "Her Majesty",
      "heard": false
     }
    ],
@@ -10314,23 +10484,68 @@
    "cover": "covers/980bdc5e-01eb-4e82-8bae-71849e2f7c28.jpg",
    "tracks": [
     {
-     "n": "A1",
+     "n": "1",
+     "title": "Bury Me Not on the Lone Praire",
+     "heard": false
+    },
+    {
+     "n": "2",
+     "title": "The Old Chisholm Trail",
+     "heard": false
+    },
+    {
+     "n": "3",
      "title": "Red River Valley",
      "heard": false
     },
     {
-     "n": "A2",
+     "n": "4",
+     "title": "Whoopee to Yi Yo",
+     "heard": false
+    },
+    {
+     "n": "5",
      "title": "Doney Gal",
      "heard": false
     },
     {
-     "n": "B1",
+     "n": "6",
+     "title": "Tumbling Tumbleweeds",
+     "heard": false
+    },
+    {
+     "n": "7",
+     "title": "Colorado Trail",
+     "heard": false
+    },
+    {
+     "n": "8",
+     "title": "I Ride an Old Paint",
+     "heard": false
+    },
+    {
+     "n": "9",
      "title": "Night Herding Song",
      "heard": false
     },
     {
-     "n": "B2",
+     "n": "10",
      "title": "Cool Water",
+     "heard": false
+    },
+    {
+     "n": "11",
+     "title": "Streets of Laredo",
+     "heard": false
+    },
+    {
+     "n": "12",
+     "title": "Home on the Range",
+     "heard": false
+    },
+    {
+     "n": "13",
+     "title": "Poor Lonesome Cowboy",
      "heard": false
     }
    ],
