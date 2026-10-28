@@ -1,7 +1,7 @@
 {
  "version": 1,
  "generated": "2026-10-27",
- "count": 5,
+ "count": 6,
  "albums": [
   {
    "id": "rg:abbeeaed-40dc-32ae-9c9f-2dfcc8eddfc3",
@@ -265,6 +265,68 @@
    ],
    "last_played": "2026-10-27",
    "musicbrainz": "https://musicbrainz.org/release-group/e52282d9-3b38-420e-bf3c-9d911ffde3e1"
+  },
+  {
+   "id": "rg:f51bb1a7-446f-4319-9140-03c4d06fd4a0",
+   "kind": "LP",
+   "artist": "Manic Focus",
+   "title": "Cerebral Eclipse",
+   "year": "2014",
+   "cover": "covers/f51bb1a7-446f-4319-9140-03c4d06fd4a0.jpg",
+   "tracks": [
+    {
+     "n": "1",
+     "title": "Dedicated to the Service",
+     "heard": true
+    },
+    {
+     "n": "2",
+     "title": "Trail Blazin'",
+     "heard": true
+    },
+    {
+     "n": "3",
+     "title": "Space Scholar Synthesis",
+     "heard": true
+    },
+    {
+     "n": "4",
+     "title": "Rooster",
+     "heard": true
+    },
+    {
+     "n": "5",
+     "title": "On the Horizon",
+     "heard": false
+    },
+    {
+     "n": "6",
+     "title": "Just Another Fool",
+     "heard": false
+    },
+    {
+     "n": "7",
+     "title": "We Can Fly",
+     "heard": false
+    },
+    {
+     "n": "8",
+     "title": "Travelin' On My Mind",
+     "heard": false
+    },
+    {
+     "n": "9",
+     "title": "Bumpin' in the Voodoo",
+     "heard": false
+    },
+    {
+     "n": "10",
+     "title": "Life Goes On",
+     "heard": false
+    }
+   ],
+   "last_played": "2026-10-27",
+   "musicbrainz": "https://musicbrainz.org/release-group/f51bb1a7-446f-4319-9140-03c4d06fd4a0"
   },
   {
    "id": "rg:158c4cb7-cc81-3778-991d-5654d738e50a",
