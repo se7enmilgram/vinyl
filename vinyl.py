@@ -26,10 +26,13 @@ TZ = dt.timezone(dt.timedelta(hours=-6))
 
 # ---------- text matching ----------
 
-def norm(s):
+def norm(s, keep_paren=False):
     """Loose title/artist key: no accents, no (feat. …)/[Remastered]/(Bonus Track), no punctuation."""
-    s = unicodedata.normalize("NFKD", s or "").encode("ascii", "ignore").decode().lower()
-    s = re.sub(r"\s*[\(\[][^\)\]]*[\)\]]", "", s)
+    s = re.sub(r"[\u2010-\u2015\u2212]", " ", s or "")            # en/em dashes: "1967–1970"
+    s = re.sub(r"['\u2018\u2019`]", "", s)                        # apostrophes: Don’t = Don't = Dont
+    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower()
+    if not keep_paren:
+        s = re.sub(r"\s*[\(\[][^\)\]]*[\)\]]", "", s)
     s = re.sub(r"\s+-\s+.*\b(remaster\w*|version|edit|mono|stereo|live|mix)\b.*$", "", s)
     s = s.replace("&", " and ")
     return re.sub(r"[^a-z0-9]+", " ", s).strip()
@@ -455,21 +458,88 @@ def cmd_set(a, c, status):
     c.commit()
 
 
-def cmd_add(a, c):
-    res = mb(c, "release-group", query=f"releasegroup:{q(a.album)} AND artist:{q(a.artist)}", limit=10)
-    rgs = [g for g in res.get("release-groups", []) if g.get("score", 0) >= 80]
-    if not rgs:
-        sys.exit("not found on MusicBrainz; try different spelling")
-    rg = rgs[0]
+ALIASES = {"first": "1", "1st": "1", "one": "1", "second": "2", "2nd": "2", "two": "2", "three": "3",
+           "vol": "volume", "pt": "part", "the": ""}
+
+
+def title_tier(found, wanted):
+    """2 = same album title (word order/aliases aside, e.g. "Mack the Knife: Ella in Berlin"), 1 = loose, 0 = no.
+    Keeps parentheses so "(Volume One)" and "(Volume Two)" stay different."""
+    words = lambda x: sorted(w for w in (ALIASES.get(t, t) for t in norm(x, keep_paren=True).split()) if w)
+    if words(found) == words(wanted):
+        return 2
+    f, w = norm(found, keep_paren=True), norm(wanted, keep_paren=True)
+    return 1 if same(found, wanted) and difflib.SequenceMatcher(None, f, w).ratio() >= 0.75 else 0
+
+
+def find_album(c, artist, album):
+    """Best MusicBrainz release group for artist + album (albums preferred over singles/EPs), or None."""
+    a = main_artist(artist)
+    rank = {"Album": 3, "EP": 1, "Single": 0}
+
+    def score(g):
+        credit = " ".join(x.get("name", "") for x in g.get("artist-credit", []))
+        year = int((g.get("first-release-date") or "9999")[:4] or 9999)
+        return (title_tier(g.get("title"), album), same(main_artist(credit), a),
+                rank.get(g.get("primary-type"), 1), -year, g.get("score", 0))   # originals over reissues
+
+    for query in (f"releasegroup:{q(album)} AND artist:{q(a)}",                  # exact phrase
+                  f"releasegroup:({norm(album)}) AND artist:{q(a)}"):            # any word order / punctuation
+        res = mb(c, "release-group", query=query, limit=25)
+        ok = [g for g in res.get("release-groups", []) if score(g)[0] and score(g)[1]]
+        if ok:
+            return max(ok, key=score)
+    return None
+
+
+def add_album(c, artist, album, dry=False):
+    """Add one owned record by name. Returns (status, description)."""
+    rg = find_album(c, artist, album)
+    if not rg:
+        return "notfound", f"{artist} — {album}"
+    credit = " ".join(x.get("name", "") + x.get("joinphrase", "") for x in rg.get("artist-credit", [])).strip() or artist
+    key = f"rg:{rg['id']}"
+    old = c.execute("SELECT status FROM records WHERE key=?", (key,)).fetchone()
+    if old and old["status"] == "confirmed":
+        return "have", f"{credit} — {rg['title']}"
+    if dry:
+        return "would-add", f"{credit} — {rg['title']} ({rg.get('first-release-date', '')[:4] or '?'}, {rg.get('primary-type')})"
     rel = best_release(c, rg["id"], []) or {"release_id": None, "tracks": [], "year": None}
-    artist = " ".join(x.get("name", "") for x in rg.get("artist-credit", [])) or a.artist
     kind = '7"' if rg.get("primary-type") == "Single" else "LP"
     c.execute("""INSERT INTO records (key, kind, artist, title, year, rgid, release_id, status, confirmed_by, tracks, manual)
                  VALUES (?,?,?,?,?,?,?, 'confirmed', 'manual', ?, 1)
                  ON CONFLICT(key) DO UPDATE SET status='confirmed', confirmed_by='manual'""",
-              (f"rg:{rg['id']}", kind, artist, rg["title"], rel["year"], rg["id"], rel["release_id"], json.dumps(rel["tracks"])))
+              (key, kind, credit, rg["title"], (rg.get("first-release-date") or "")[:4] or rel["year"], rg["id"],
+               rel["release_id"], json.dumps(rel["tracks"])))
     c.commit()
-    print(f"added: {artist} — {rg['title']} ({rel['year'] or '?'}, {len(rel['tracks'])} tracks)")
+    return "added", f"{credit} — {rg['title']} ({len(rel['tracks'])} tracks)"
+
+
+def cmd_add(a, c):
+    status, desc = add_album(c, a.artist, a.album)
+    print(f"{status}: {desc}")
+    if status == "notfound":
+        sys.exit(1)
+
+
+def cmd_import(a, c):
+    """Bulk add from a text file: one "Artist | Album" per line; '#' comments and '?' (unconfirmed) lines skipped."""
+    lines = [l.strip() for l in open(a.file, encoding="utf-8")]
+    todo = [l for l in lines if l and not l.startswith(("#", "?")) and "|" in l]
+    skipped = [l for l in lines if l.startswith("?")]
+    tally = {}
+    for l in todo:
+        artist, album = (x.strip() for x in l.split("|", 1))
+        try:
+            status, desc = add_album(c, artist, album, dry=not a.apply)
+        except MBError as e:
+            status, desc = "error", f"{artist} — {album}: {e}"
+        tally[status] = tally.get(status, 0) + 1
+        mark = {"added": "+", "would-add": "+", "have": "=", "notfound": "?", "error": "!"}[status]
+        print(f"{mark} {desc}" + ("" if status != "notfound" else "   <- NOT FOUND: fix spelling in the file"))
+    print("\n" + ", ".join(f"{v} {k}" for k, v in tally.items()) + (f", {len(skipped)} unconfirmed (?) skipped" if skipped else ""))
+    if not a.apply:
+        print("dry run; re-run with --apply to add them")
 
 
 def cmd_have(a, c):
@@ -501,6 +571,8 @@ def main():
     s.set_defaults(f=lambda a, c: cmd_set(a, c, "rejected"))
     s = sp.add_parser("add", help="add a record you own by artist + album"); s.add_argument("artist"); s.add_argument("album")
     s.set_defaults(f=cmd_add)
+    s = sp.add_parser("import", help='bulk add "Artist | Album" lines from a file (dry run unless --apply)')
+    s.add_argument("file"); s.add_argument("--apply", action="store_true"); s.set_defaults(f=cmd_import)
     s = sp.add_parser("have", help="do I have this song/artist?"); s.add_argument("query"); s.set_defaults(f=cmd_have)
     s = sp.add_parser("publish", help="write docs/catalog.json, commit, push"); s.add_argument("--dry-run", action="store_true")
     s.set_defaults(f=lambda a, c: publish(c, a.dry_run))
