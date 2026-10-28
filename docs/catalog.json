@@ -1,7 +1,7 @@
 {
  "version": 1,
  "generated": "2026-10-28",
- "count": 156,
+ "count": 159,
  "albums": [
   {
    "id": "rg:9fec57ed-2bf4-3ac9-844b-6d0a67fd2910",
@@ -1908,6 +1908,135 @@
    ],
    "last_played": null,
    "musicbrainz": "https://musicbrainz.org/release-group/6c9ae3dd-32ad-472c-96be-69d0a3536261"
+  },
+  {
+   "id": "rg:ab4706d3-5e4c-4f87-a373-bf8e6de1931f",
+   "kind": "LP",
+   "artist": "Def3",
+   "title": "Small World",
+   "year": "2017",
+   "cover": "covers/ab4706d3-5e4c-4f87-a373-bf8e6de1931f.jpg",
+   "tracks": [
+    {
+     "n": "1",
+     "title": "Fill Your Soul",
+     "heard": false
+    },
+    {
+     "n": "2",
+     "title": "Small World",
+     "heard": false
+    },
+    {
+     "n": "3",
+     "title": "Serenity",
+     "heard": false
+    },
+    {
+     "n": "4",
+     "title": "Something Missing",
+     "heard": false
+    },
+    {
+     "n": "5",
+     "title": "Carry On",
+     "heard": false
+    },
+    {
+     "n": "6",
+     "title": "Sing",
+     "heard": false
+    },
+    {
+     "n": "7",
+     "title": "Life's a Trip",
+     "heard": false
+    },
+    {
+     "n": "8",
+     "title": "Big Picture",
+     "heard": false
+    },
+    {
+     "n": "9",
+     "title": "S.O.S.",
+     "heard": false
+    },
+    {
+     "n": "10",
+     "title": "Prowl",
+     "heard": false
+    },
+    {
+     "n": "11",
+     "title": "El Fin Del Mundo",
+     "heard": false
+    },
+    {
+     "n": "12",
+     "title": "Carry On (remix)",
+     "heard": false
+    }
+   ],
+   "last_played": null,
+   "musicbrainz": "https://musicbrainz.org/release-group/ab4706d3-5e4c-4f87-a373-bf8e6de1931f"
+  },
+  {
+   "id": "rg:ee122b2e-bd56-4ef9-a884-b5b2548cd8a5",
+   "kind": "LP",
+   "artist": "Def3 & Late Night Radio",
+   "title": "Weddings & Funerals",
+   "year": "2021",
+   "cover": "covers/ee122b2e-bd56-4ef9-a884-b5b2548cd8a5.jpg",
+   "tracks": [
+    {
+     "n": "1",
+     "title": "Just Wait",
+     "heard": false
+    },
+    {
+     "n": "2",
+     "title": "Better",
+     "heard": false
+    },
+    {
+     "n": "3",
+     "title": "Lift Off",
+     "heard": false
+    },
+    {
+     "n": "4",
+     "title": "Real Love",
+     "heard": false
+    },
+    {
+     "n": "5",
+     "title": "Drowning",
+     "heard": false
+    },
+    {
+     "n": "6",
+     "title": "Soulstice",
+     "heard": false
+    },
+    {
+     "n": "7",
+     "title": "Push",
+     "heard": false
+    },
+    {
+     "n": "8",
+     "title": "Got Away",
+     "heard": false
+    },
+    {
+     "n": "9",
+     "title": "Rani",
+     "heard": false
+    }
+   ],
+   "last_played": null,
+   "musicbrainz": "https://musicbrainz.org/release-group/ee122b2e-bd56-4ef9-a884-b5b2548cd8a5"
   },
   {
    "id": "rg:b0866510-7c36-32ed-a03a-f71798ece1ed",
@@ -8372,6 +8501,83 @@
    ],
    "last_played": null,
    "musicbrainz": "https://musicbrainz.org/release-group/9f7a4c28-8fa2-3113-929c-c47a9f7982c3"
+  },
+  {
+   "id": "rg:055be730-dcad-31bf-b550-45ba9c202aa3",
+   "kind": "LP",
+   "artist": "The Beatles",
+   "title": "The Beatles",
+   "year": "1968",
+   "cover": "covers/055be730-dcad-31bf-b550-45ba9c202aa3.jpg",
+   "tracks": [
+    {
+     "n": "A1",
+     "title": "Birthday",
+     "heard": false
+    },
+    {
+     "n": "A2",
+     "title": "Yer Blues",
+     "heard": false
+    },
+    {
+     "n": "A3",
+     "title": "Mother Nature’s Son",
+     "heard": false
+    },
+    {
+     "n": "A4",
+     "title": "Everybody’s Got Something to Hide Except Me and My Monkey",
+     "heard": false
+    },
+    {
+     "n": "A5",
+     "title": "Sexy Sadie",
+     "heard": false
+    },
+    {
+     "n": "A6",
+     "title": "Helter Skelter",
+     "heard": false
+    },
+    {
+     "n": "A7",
+     "title": "Long, Long, Long",
+     "heard": false
+    },
+    {
+     "n": "B1",
+     "title": "Revolution 1",
+     "heard": false
+    },
+    {
+     "n": "B2",
+     "title": "Honey Pie",
+     "heard": false
+    },
+    {
+     "n": "B3",
+     "title": "Savoy Truffle",
+     "heard": false
+    },
+    {
+     "n": "B4",
+     "title": "Cry, Baby, Cry",
+     "heard": false
+    },
+    {
+     "n": "B5",
+     "title": "Revolution 9",
+     "heard": false
+    },
+    {
+     "n": "B6",
+     "title": "Good Night",
+     "heard": false
+    }
+   ],
+   "last_played": null,
+   "musicbrainz": "https://musicbrainz.org/release-group/055be730-dcad-31bf-b550-45ba9c202aa3"
   },
   {
    "id": "rg:9162580e-5df4-32de-80cc-f45a8d8a9b1d",
