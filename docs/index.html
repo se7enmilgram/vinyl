@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Crim's Records</title>
+<style>
+  :root { --bg:#faf8f5; --fg:#1f1d1a; --muted:#6b665e; --card:#fff; --line:#e6e1d8; --accent:#b0302a; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#161513; --fg:#ece8e1; --muted:#9b958b; --card:#201e1b; --line:#34312c; --accent:#e0675e; } }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: system-ui, -apple-system, sans-serif; background:var(--bg); color:var(--fg); }
+  header { max-width:72rem; margin:0 auto; padding:2rem 1rem 1rem; }
+  h1 { margin:0 0 .25rem; font-size:1.8rem; }
+  .sub { color:var(--muted); margin:0 0 1rem; }
+  .sub a { color:var(--accent); }
+  .bar { display:flex; gap:.5rem; flex-wrap:wrap; align-items:center; }
+  input[type=search] { flex:1 1 18rem; font:inherit; padding:.6rem .8rem; border:1px solid var(--line); border-radius:.5rem; background:var(--card); color:var(--fg); }
+  .chips button { font:inherit; padding:.45rem .8rem; border:1px solid var(--line); border-radius:999px; background:var(--card); color:var(--fg); cursor:pointer; }
+  .chips button[aria-pressed=true] { background:var(--fg); color:var(--bg); border-color:var(--fg); }
+  main { max-width:72rem; margin:0 auto; padding:0 1rem 3rem; }
+  .count { color:var(--muted); margin:.75rem 0; font-size:.9rem; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(10.5rem, 1fr)); gap:1rem; }
+  .rec { background:var(--card); border:1px solid var(--line); border-radius:.6rem; overflow:hidden; cursor:pointer; text-align:left; padding:0; font:inherit; color:inherit; }
+  .rec:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+  .art { aspect-ratio:1; background:var(--line); display:flex; align-items:center; justify-content:center; font-size:3rem; }
+  .art img { width:100%; height:100%; object-fit:cover; display:block; }
+  .meta { padding:.55rem .65rem .7rem; }
+  .t { font-weight:600; line-height:1.25; }
+  .a, .y { color:var(--muted); font-size:.88rem; }
+  .badge { font-size:.72rem; border:1px solid var(--line); border-radius:.3rem; padding:0 .3rem; margin-left:.25rem; color:var(--muted); }
+  .songs { list-style:none; padding:0; margin:0; }
+  .songs li { padding:.55rem .2rem; border-bottom:1px solid var(--line); }
+  .songs li span { color:var(--muted); }
+  dialog { border:1px solid var(--line); border-radius:.8rem; background:var(--card); color:var(--fg); max-width:32rem; width:calc(100% - 2rem); padding:0; }
+  dialog::backdrop { background:rgba(0,0,0,.5); }
+  .dhead { display:flex; gap:1rem; padding:1rem; border-bottom:1px solid var(--line); }
+  .dhead img { width:6rem; height:6rem; object-fit:cover; border-radius:.4rem; }
+  .dhead h2 { margin:0 0 .2rem; font-size:1.15rem; }
+  dialog ol { margin:0; padding:.6rem 1rem 1rem 3rem; max-height:50vh; overflow:auto; }
+  dialog li { padding:.15rem 0; }
+  dialog li.heard::marker { content:"♪  "; color:var(--accent); }
+  .close { float:right; font:inherit; border:0; background:none; color:var(--muted); font-size:1.4rem; cursor:pointer; padding:.4rem .7rem; }
+  footer { color:var(--muted); font-size:.82rem; text-align:center; padding:1rem; }
+</style>
+</head>
+<body>
+<header>
+  <h1>📀 Crim's Records</h1>
+  <p class="sub">What's on the shelf, cataloged by playing it. <a href="https://livesets.com/7mg-1/live">🔴 Listen live</a> when the turntable is on.</p>
+  <div class="bar">
+    <input id="q" type="search" placeholder="Search songs, artists, albums…" autocomplete="off" aria-label="Search">
+    <div class="chips" role="group" aria-label="Format">
+      <button data-kind="" aria-pressed="true">All</button>
+      <button data-kind="LP" aria-pressed="false">LPs</button>
+      <button data-kind='7"' aria-pressed="false">45s</button>
+    </div>
+    <div class="chips" role="group" aria-label="Sort">
+      <button data-sort="artist" aria-pressed="true">A–Z</button>
+      <button data-sort="recent" aria-pressed="false">Recently played</button>
+    </div>
+  </div>
+</header>
+<main>
+  <div class="count" id="count">Loading…</div>
+  <ul class="songs" id="songs" hidden></ul>
+  <div class="grid" id="grid"></div>
+</main>
+<dialog id="dlg"></dialog>
+<footer id="foot"></footer>
+<script src="app.js"></script>
+</body>
+</html>

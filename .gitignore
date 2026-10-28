@@ -1,0 +1,4 @@
+__pycache__/
+*.db
+._*
+.DS_Store
