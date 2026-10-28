@@ -459,6 +459,7 @@ def cmd_set(a, c, status):
 
 
 ALIASES = {"first": "1", "1st": "1", "one": "1", "second": "2", "2nd": "2", "two": "2", "three": "3",
+           "ii": "2", "iii": "3", "iv": "4", "vi": "6",
            "vol": "volume", "pt": "part", "the": ""}
 
 
