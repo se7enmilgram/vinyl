@@ -141,21 +141,32 @@ def recordings(c, artist, title):
 
 
 def best_release(c, rgid, heard):
-    """Pick the release in a release group that best covers what was heard (vinyl preferred)."""
+    """Pick the release whose tracklist best represents the album on vinyl: covers what was heard,
+    then the most common vinyl track count (the canonical LP, not a bonus-track reissue or one disc of two),
+    then the earliest."""
     res = mb(c, "release", **{"release-group": rgid, "inc": "media recordings", "limit": 100})
-    best = None
+    cands = []
     for rel in res.get("releases", []):
         tracks = [{"n": t.get("number") or str(t.get("position")), "title": t.get("title")}
                   for m in rel.get("media", []) for t in m.get("tracks", [])]
         vinyl = any("vinyl" in (m.get("format") or "").lower() or '"' in (m.get("format") or "")
                     for m in rel.get("media", []))
-        cover = sum(any(same(h, t["title"]) for t in tracks) for h in heard)
-        score = (cover, vinyl, -len(tracks) if vinyl else 0, -(int((rel.get("date") or "9999")[:4] or 9999)))
-        if tracks and (best is None or score > best[0]):
-            best = (score, rel, tracks, vinyl)
-    if not best:
+        if tracks:
+            cands.append((rel, tracks, vinyl))
+    if not cands:
         return None
-    _, rel, tracks, vinyl = best
+    pool = [x for x in cands if x[2]] or cands
+    common = {}
+    for _, tracks, _ in pool:
+        common[len(tracks)] = common.get(len(tracks), 0) + 1
+
+    def score(x):
+        rel, tracks, vinyl = x
+        cover = sum(any(same(h, t["title"]) for t in tracks) for h in heard)
+        year = int((rel.get("date") or "9999")[:4] or 9999)
+        return (cover, vinyl, common.get(len(tracks), 0), -year)
+
+    rel, tracks, vinyl = max(cands, key=score)
     years = [r.get("date", "")[:4] for r in res.get("releases", []) if r.get("date")]
     return {"release_id": rel["id"], "tracks": tracks, "vinyl": vinyl, "year": min(years) if years else None}
 
@@ -572,6 +583,23 @@ def cmd_import(a, c):
         print("dry run; re-run with --apply to add them")
 
 
+def cmd_retrack(a, c):
+    """Re-pick each record's tracklist release (after a selection fix); only manual adds and played records with an MB id."""
+    changed = 0
+    for r in c.execute("SELECT * FROM records WHERE rgid IS NOT NULL AND status='confirmed'").fetchall():
+        rel = best_release(c, r["rgid"], json.loads(r["heard"]))
+        if not rel:
+            continue
+        old = len(json.loads(r["tracks"]))
+        if rel["release_id"] != r["release_id"] and len(rel["tracks"]) != old:
+            c.execute("UPDATE records SET release_id=?, tracks=? WHERE id=?",
+                      (rel["release_id"], json.dumps(rel["tracks"]), r["id"]))
+            changed += 1
+            print(f"{r['artist']} — {r['title']}: {old} -> {len(rel['tracks'])} tracks")
+    c.commit()
+    print(f"{changed} tracklists updated")
+
+
 def cmd_have(a, c):
     hits = 0
     for r in c.execute("SELECT * FROM records WHERE status!='rejected'"):
@@ -605,6 +633,7 @@ def main():
     s.add_argument("file"); s.add_argument("--apply", action="store_true")
     s.add_argument("--include-review", action="store_true", help="also add matches flagged for review")
     s.set_defaults(f=cmd_import)
+    sp.add_parser("retrack", help="re-pick tracklists after a release-selection fix").set_defaults(f=cmd_retrack)
     s = sp.add_parser("have", help="do I have this song/artist?"); s.add_argument("query"); s.set_defaults(f=cmd_have)
     s = sp.add_parser("publish", help="write docs/catalog.json, commit, push"); s.add_argument("--dry-run", action="store_true")
     s.set_defaults(f=lambda a, c: publish(c, a.dry_run))
