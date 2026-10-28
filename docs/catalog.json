@@ -1,0 +1,362 @@
+{
+ "version": 1,
+ "generated": "2026-10-27",
+ "count": 5,
+ "albums": [
+  {
+   "id": "rg:abbeeaed-40dc-32ae-9c9f-2dfcc8eddfc3",
+   "kind": "LP",
+   "artist": "Coil",
+   "title": "Love's Secret Domain",
+   "year": "1991",
+   "cover": "covers/abbeeaed-40dc-32ae-9c9f-2dfcc8eddfc3.jpg",
+   "tracks": [
+    {
+     "n": "A1",
+     "title": "Disco Hospital",
+     "heard": true
+    },
+    {
+     "n": "A2",
+     "title": "Teenage Lightning 1",
+     "heard": true
+    },
+    {
+     "n": "A3",
+     "title": "Things Happen",
+     "heard": true
+    },
+    {
+     "n": "A4",
+     "title": "The Snow",
+     "heard": true
+    },
+    {
+     "n": "B1",
+     "title": "Dark River",
+     "heard": false
+    },
+    {
+     "n": "B2",
+     "title": "Where Even the Darkness Is Something to See",
+     "heard": false
+    },
+    {
+     "n": "B3",
+     "title": "Teenage Lightning 2",
+     "heard": false
+    },
+    {
+     "n": "C1",
+     "title": "Windowpane",
+     "heard": false
+    },
+    {
+     "n": "C2",
+     "title": "Further Back and Faster",
+     "heard": false
+    },
+    {
+     "n": "D1",
+     "title": "Titan Arch",
+     "heard": false
+    },
+    {
+     "n": "D2",
+     "title": "Chaostrophy",
+     "heard": false
+    },
+    {
+     "n": "D3",
+     "title": "Lorca Not Orca",
+     "heard": false
+    },
+    {
+     "n": "D4",
+     "title": "Love’s Secret Domain",
+     "heard": false
+    }
+   ],
+   "last_played": "2026-10-27",
+   "musicbrainz": "https://musicbrainz.org/release-group/abbeeaed-40dc-32ae-9c9f-2dfcc8eddfc3"
+  },
+  {
+   "id": "rg:6b5d9bf1-f496-34b5-9488-7df2533d6208",
+   "kind": "LP",
+   "artist": "Fleetwood Mac",
+   "title": "Fleetwood Mac",
+   "year": "1975",
+   "cover": "covers/6b5d9bf1-f496-34b5-9488-7df2533d6208.jpg",
+   "tracks": [
+    {
+     "n": "A1",
+     "title": "Monday Morning",
+     "heard": true
+    },
+    {
+     "n": "A2",
+     "title": "Warm Ways",
+     "heard": true
+    },
+    {
+     "n": "A3",
+     "title": "Blue Letter",
+     "heard": true
+    },
+    {
+     "n": "A4",
+     "title": "Rhiannon",
+     "heard": true
+    },
+    {
+     "n": "A5",
+     "title": "Over My Head",
+     "heard": true
+    },
+    {
+     "n": "A6",
+     "title": "Crystal",
+     "heard": true
+    },
+    {
+     "n": "B1",
+     "title": "Say You Love Me",
+     "heard": true
+    },
+    {
+     "n": "B2",
+     "title": "Landslide",
+     "heard": true
+    },
+    {
+     "n": "B3",
+     "title": "World Turning",
+     "heard": true
+    },
+    {
+     "n": "B4",
+     "title": "Sugar Daddy",
+     "heard": true
+    },
+    {
+     "n": "B5",
+     "title": "I’m So Afraid",
+     "heard": true
+    }
+   ],
+   "last_played": "2026-10-27",
+   "musicbrainz": "https://musicbrainz.org/release-group/6b5d9bf1-f496-34b5-9488-7df2533d6208"
+  },
+  {
+   "id": "rg:cddab6fa-4c6a-404e-a78f-2e996fe53d40",
+   "kind": "LP",
+   "artist": "Johnny Blue Skies",
+   "title": "Mutiny After Midnight",
+   "year": "2026",
+   "cover": "covers/cddab6fa-4c6a-404e-a78f-2e996fe53d40.jpg",
+   "tracks": [
+    {
+     "n": "A1",
+     "title": "Make America Fuk Again",
+     "heard": true
+    },
+    {
+     "n": "A2",
+     "title": "Excited Delirium",
+     "heard": true
+    },
+    {
+     "n": "A3",
+     "title": "Don’t Let Go",
+     "heard": true
+    },
+    {
+     "n": "A4",
+     "title": "Stay on That",
+     "heard": true
+    },
+    {
+     "n": "A5",
+     "title": "Viridescent",
+     "heard": true
+    },
+    {
+     "n": "B1",
+     "title": "Situation",
+     "heard": false
+    },
+    {
+     "n": "B2",
+     "title": "Venus",
+     "heard": false
+    },
+    {
+     "n": "B3",
+     "title": "Everyone Is Welcome",
+     "heard": false
+    },
+    {
+     "n": "B4",
+     "title": "Ain’t That a Bitch",
+     "heard": false
+    }
+   ],
+   "last_played": "2026-10-27",
+   "musicbrainz": "https://musicbrainz.org/release-group/cddab6fa-4c6a-404e-a78f-2e996fe53d40"
+  },
+  {
+   "id": "rg:e52282d9-3b38-420e-bf3c-9d911ffde3e1",
+   "kind": "LP",
+   "artist": "Lyrics Born",
+   "title": "Goodbye, Sticky Rice",
+   "year": "2024",
+   "cover": "covers/e52282d9-3b38-420e-bf3c-9d911ffde3e1.jpg",
+   "tracks": [
+    {
+     "n": "1",
+     "title": "What Dreams Are Made Of",
+     "heard": true
+    },
+    {
+     "n": "2",
+     "title": "Take It 2 Far",
+     "heard": true
+    },
+    {
+     "n": "3",
+     "title": "Smokin’ Wit My Lady",
+     "heard": true
+    },
+    {
+     "n": "4",
+     "title": "Gyrlz",
+     "heard": true
+    },
+    {
+     "n": "5",
+     "title": "It Might Not Be Love",
+     "heard": true
+    },
+    {
+     "n": "6",
+     "title": "Shades of Jade",
+     "heard": false
+    },
+    {
+     "n": "7",
+     "title": "Beautiful DJ",
+     "heard": false
+    },
+    {
+     "n": "8",
+     "title": "If Ur Down, I’m Down",
+     "heard": false
+    },
+    {
+     "n": "9",
+     "title": "Can We Still Be Friends?",
+     "heard": false
+    },
+    {
+     "n": "10",
+     "title": "Live Your Life (Without Permission) [Bonus Track]",
+     "heard": false
+    }
+   ],
+   "last_played": "2026-10-27",
+   "musicbrainz": "https://musicbrainz.org/release-group/e52282d9-3b38-420e-bf3c-9d911ffde3e1"
+  },
+  {
+   "id": "rg:158c4cb7-cc81-3778-991d-5654d738e50a",
+   "kind": "LP",
+   "artist": "Mirah",
+   "title": "You Think It's Like This but Really It's Like This",
+   "year": "2000",
+   "cover": "covers/158c4cb7-cc81-3778-991d-5654d738e50a.jpg",
+   "tracks": [
+    {
+     "n": "1",
+     "title": "Million Miles",
+     "heard": true
+    },
+    {
+     "n": "2",
+     "title": "Sweepstakes Prize",
+     "heard": true
+    },
+    {
+     "n": "3",
+     "title": "Of Pressure",
+     "heard": true
+    },
+    {
+     "n": "4",
+     "title": "This Dance",
+     "heard": true
+    },
+    {
+     "n": "5",
+     "title": "La Familia",
+     "heard": true
+    },
+    {
+     "n": "6",
+     "title": "Gone Sugaring",
+     "heard": true
+    },
+    {
+     "n": "7",
+     "title": "Person Person",
+     "heard": true
+    },
+    {
+     "n": "8",
+     "title": "Engine Heart",
+     "heard": true
+    },
+    {
+     "n": "9",
+     "title": "Archipelago",
+     "heard": false
+    },
+    {
+     "n": "10",
+     "title": "100 Knives",
+     "heard": false
+    },
+    {
+     "n": "11",
+     "title": "Murphy Bed",
+     "heard": false
+    },
+    {
+     "n": "12",
+     "title": "Pollen",
+     "heard": false
+    },
+    {
+     "n": "13",
+     "title": "Small Town",
+     "heard": false
+    },
+    {
+     "n": "14",
+     "title": "Water and Sleep",
+     "heard": false
+    },
+    {
+     "n": "15",
+     "title": "Telephone Wires",
+     "heard": false
+    },
+    {
+     "n": "16",
+     "title": "Words Cannot Describe",
+     "heard": false
+    }
+   ],
+   "last_played": "2026-10-27",
+   "musicbrainz": "https://musicbrainz.org/release-group/158c4cb7-cc81-3778-991d-5654d738e50a"
+  }
+ ]
+}
