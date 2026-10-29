@@ -164,7 +164,7 @@ def best_release(c, rgid, heard):
         rel, tracks, vinyl = x
         cover = sum(any(same(h, t["title"]) for t in tracks) for h in heard)
         year = int((rel.get("date") or "9999")[:4] or 9999)
-        return (cover, vinyl, common.get(len(tracks), 0), -year)
+        return (cover, seq_fit(tracks, heard), vinyl, common.get(len(tracks), 0), -year)
 
     rel, tracks, vinyl = max(cands, key=score)
     years = [r.get("date", "")[:4] for r in res.get("releases", []) if r.get("date")]
@@ -254,22 +254,46 @@ def groups(c):
     return sorted(out, key=lambda g: ts(g[1][0]["ts"]))
 
 
-def album_auto(tracks, heard_in_session, vinyl):
-    """Reason string if one session's songs prove the album, else None."""
-    hit = lambda t: any(same(h, t["title"]) for h in heard_in_session)
-    if vinyl:
-        by_side = {}
-        for t in tracks:
-            m = re.match(r"([A-Z]+)\d", t["n"] or "")
-            if m:
-                by_side.setdefault(m.group(1), []).append(t)
-        for s, ts_ in by_side.items():
-            got = sum(hit(t) for t in ts_)
-            if got == len(ts_) or (len(ts_) >= 4 and got >= len(ts_) - 1):
-                return f"full side {s} heard ({got}/{len(ts_)})"
-    n = sum(hit(t) for t in tracks)
-    if n >= AUTO_MIN_TRACKS:
-        return f"{n} album tracks heard in one session"
+def positions(tracks, heard):
+    """Tracklist index of each heard song in play order (None = not on this release)."""
+    return [next((i for i, t in enumerate(tracks) if same(h, t["title"])), None) for h in heard]
+
+
+def side_of(t):
+    m = re.match(r"([A-Z]+)\d", t["n"] or "")
+    return m.group(1) if m else None
+
+
+def seq_fit(tracks, heard):
+    """Heard songs open a side (or start one track in) and run in tracklist order, at most one skipped."""
+    pos = [i for i in positions(tracks, heard) if i is not None]
+    if len(pos) < 2 or any(b <= a for a, b in zip(pos, pos[1:])) or sum(b - a - 1 for a, b in zip(pos, pos[1:])) > 1:
+        return False
+    side = side_of(tracks[pos[0]])
+    start = next(i for i, t in enumerate(tracks) if side_of(t) == side) if side else 0
+    return pos[0] - start <= 1
+
+
+def album_auto(tracks, heard_in_order, vinyl):
+    """Reason string if one side's songs, IN PLAY ORDER, prove the album; else None.
+    Guards against adding an album you don't own from a compilation that shares some of its songs:
+    the side must start at (or one track into) a side opener, follow the tracklist in order (one miss allowed),
+    and contain at most one song from elsewhere."""
+    idx = positions(tracks, heard_in_order)
+    if sum(i is None for i in idx) > 1:              # songs from other albums mixed in: a compilation
+        return None
+    if not seq_fit(tracks, heard_in_order):
+        return None
+    pos = [i for i in idx if i is not None]
+    side = side_of(tracks[pos[0]])
+    if vinyl and side:
+        side_idx = [i for i, t in enumerate(tracks) if side_of(t) == side]
+        got = sum(i in side_idx for i in pos)
+        if got == len(side_idx) or (len(side_idx) >= 4 and got >= len(side_idx) - 1):
+            return f"side {side} heard in order ({got}/{len(side_idx)})"
+        return None
+    if len(pos) >= AUTO_MIN_TRACKS:                  # no side layout known: the album's opening run, in order
+        return f"first {len(pos)} tracks heard in order"
     return None
 
 
