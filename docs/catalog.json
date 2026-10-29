@@ -1,7 +1,7 @@
 {
  "version": 1,
  "generated": "2026-10-28",
- "count": 165,
+ "count": 166,
  "albums": [
   {
    "id": "rg:9fec57ed-2bf4-3ac9-844b-6d0a67fd2910",
@@ -7367,6 +7367,53 @@
    ],
    "last_played": null,
    "musicbrainz": "https://musicbrainz.org/release-group/ea8ee7e6-297a-33ab-bbee-803c6f4785e4"
+  },
+  {
+   "id": "rg:63a36b5d-ab1c-499c-b236-f9015b35e2e4",
+   "kind": "LP",
+   "artist": "Scene Queen",
+   "title": "Bimbocore",
+   "year": "2022",
+   "cover": "covers/63a36b5d-ab1c-499c-b236-f9015b35e2e4.jpg",
+   "tracks": [
+    {
+     "n": "A1",
+     "title": "Bring It On",
+     "heard": true
+    },
+    {
+     "n": "A2",
+     "title": "Pretty In Pink",
+     "heard": true
+    },
+    {
+     "n": "A3",
+     "title": "Pink Bubblegum",
+     "heard": true
+    },
+    {
+     "n": "A4",
+     "title": "Pink Panther",
+     "heard": true
+    },
+    {
+     "n": "A5",
+     "title": "Pink Rover",
+     "heard": true
+    },
+    {
+     "n": "A6",
+     "title": "Pink Paper",
+     "heard": true
+    },
+    {
+     "n": "B7",
+     "title": "Untitled",
+     "heard": false
+    }
+   ],
+   "last_played": "2026-10-28",
+   "musicbrainz": "https://musicbrainz.org/release-group/63a36b5d-ab1c-499c-b236-f9015b35e2e4"
   },
   {
    "id": "rg:499a8142-b8a7-3ab1-a3db-641a41860afb",
