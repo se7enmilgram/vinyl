@@ -1,7 +1,7 @@
 {
  "version": 1,
  "generated": "2026-10-28",
- "count": 163,
+ "count": 165,
  "albums": [
   {
    "id": "rg:9fec57ed-2bf4-3ac9-844b-6d0a67fd2910",
@@ -2256,6 +2256,230 @@
    ],
    "last_played": null,
    "musicbrainz": "https://musicbrainz.org/release-group/ee122b2e-bd56-4ef9-a884-b5b2548cd8a5"
+  },
+  {
+   "id": "rg:e13af55a-84e8-31d5-a4cd-f5681616235b",
+   "kind": "LP",
+   "artist": "Dolly Parton",
+   "title": "Jolene",
+   "year": "1974",
+   "cover": "covers/e13af55a-84e8-31d5-a4cd-f5681616235b.jpg",
+   "tracks": [
+    {
+     "n": "A1",
+     "title": "Jolene",
+     "heard": false
+    },
+    {
+     "n": "A2",
+     "title": "When Someone Wants to Leave",
+     "heard": false
+    },
+    {
+     "n": "A3",
+     "title": "River of Happiness",
+     "heard": false
+    },
+    {
+     "n": "A4",
+     "title": "Early Morning Breeze",
+     "heard": false
+    },
+    {
+     "n": "A5",
+     "title": "Highlight of My Life",
+     "heard": false
+    },
+    {
+     "n": "B1",
+     "title": "I Will Always Love You",
+     "heard": true
+    },
+    {
+     "n": "B2",
+     "title": "Randy",
+     "heard": true
+    },
+    {
+     "n": "B3",
+     "title": "Living on Memories of You",
+     "heard": true
+    },
+    {
+     "n": "B4",
+     "title": "Lonely Comin’ Down",
+     "heard": false
+    },
+    {
+     "n": "B5",
+     "title": "It Must Be You",
+     "heard": true
+    }
+   ],
+   "last_played": "2026-10-28",
+   "musicbrainz": "https://musicbrainz.org/release-group/e13af55a-84e8-31d5-a4cd-f5681616235b"
+  },
+  {
+   "id": "rg:f58199d9-1c73-4922-900c-8e258ee022c7",
+   "kind": "LP",
+   "artist": "Dolly Parton",
+   "title": "Rockstar",
+   "year": "2023",
+   "cover": "covers/f58199d9-1c73-4922-900c-8e258ee022c7.jpg",
+   "tracks": [
+    {
+     "n": "A1",
+     "title": "Rockstar",
+     "heard": false
+    },
+    {
+     "n": "A2",
+     "title": "World On Fire",
+     "heard": false
+    },
+    {
+     "n": "A3",
+     "title": "Every Breath You Take",
+     "heard": false
+    },
+    {
+     "n": "A4",
+     "title": "Open Arms",
+     "heard": false
+    },
+    {
+     "n": "B1",
+     "title": "Magic Man (Carl Version)",
+     "heard": false
+    },
+    {
+     "n": "B2",
+     "title": "Long As I Can See the Light",
+     "heard": false
+    },
+    {
+     "n": "B3",
+     "title": "Either Or",
+     "heard": false
+    },
+    {
+     "n": "B4",
+     "title": "I Want You Back",
+     "heard": false
+    },
+    {
+     "n": "C1",
+     "title": "What Has Rock And Roll Ever Done For You",
+     "heard": false
+    },
+    {
+     "n": "C2",
+     "title": "Purple Rain",
+     "heard": false
+    },
+    {
+     "n": "C3",
+     "title": "Baby, I Love You Way",
+     "heard": false
+    },
+    {
+     "n": "D1",
+     "title": "I Hate Myself For Loving You",
+     "heard": false
+    },
+    {
+     "n": "D2",
+     "title": "Night Moves",
+     "heard": false
+    },
+    {
+     "n": "D3",
+     "title": "Wrecking Ball",
+     "heard": false
+    },
+    {
+     "n": "D4",
+     "title": "(I Can't Get No) Satisfaction",
+     "heard": false
+    },
+    {
+     "n": "E1",
+     "title": "Keep On Loving You",
+     "heard": false
+    },
+    {
+     "n": "E2",
+     "title": "Heart Of Glass",
+     "heard": false
+    },
+    {
+     "n": "E3",
+     "title": "Don't Let The Sun Go Down On Me",
+     "heard": false
+    },
+    {
+     "n": "E4",
+     "title": "Tried To Rock And Roll Me",
+     "heard": false
+    },
+    {
+     "n": "F1",
+     "title": "Stairway To Heaven",
+     "heard": false
+    },
+    {
+     "n": "F2",
+     "title": "We Are The Champions",
+     "heard": false
+    },
+    {
+     "n": "F3",
+     "title": "Bygones",
+     "heard": false
+    },
+    {
+     "n": "F4",
+     "title": "My Blue Tears",
+     "heard": false
+    },
+    {
+     "n": "G1",
+     "title": "What’s Up",
+     "heard": false
+    },
+    {
+     "n": "G2",
+     "title": "You’re No Good",
+     "heard": false
+    },
+    {
+     "n": "G3",
+     "title": "Heartbreaker",
+     "heard": false
+    },
+    {
+     "n": "G4",
+     "title": "Bittersweet",
+     "heard": false
+    },
+    {
+     "n": "G5",
+     "title": "I Dreamed About Elvis",
+     "heard": false
+    },
+    {
+     "n": "H1",
+     "title": "Let It Be",
+     "heard": false
+    },
+    {
+     "n": "H2",
+     "title": "Free Bird",
+     "heard": false
+    }
+   ],
+   "last_played": null,
+   "musicbrainz": "https://musicbrainz.org/release-group/f58199d9-1c73-4922-900c-8e258ee022c7"
   },
   {
    "id": "rg:b0866510-7c36-32ed-a03a-f71798ece1ed",
