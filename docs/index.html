@@ -40,6 +40,12 @@
   dialog li { padding:.15rem 0; }
   dialog li.heard::marker { content:"♪  "; color:var(--accent); }
   .close { float:right; font:inherit; border:0; background:none; color:var(--muted); font-size:1.4rem; cursor:pointer; padding:.4rem .7rem; }
+  .now { display:flex; gap:.8rem; align-items:center; margin:.5rem 0 1rem; padding:.6rem .8rem; border:1px solid var(--line);
+         border-radius:.6rem; background:var(--card); color:inherit; text-decoration:none; }
+  .now img { width:3.2rem; height:3.2rem; object-fit:cover; border-radius:.3rem; }
+  .now .live { color:var(--accent); font-weight:700; font-size:.8rem; letter-spacing:.04em; }
+  .now .np { font-weight:600; }
+  .now .from { color:var(--muted); font-size:.88rem; }
   footer { color:var(--muted); font-size:.82rem; text-align:center; padding:1rem; }
 </style>
 </head>
@@ -61,6 +67,7 @@
   </div>
 </header>
 <main>
+  <a class="now" id="now" hidden href="https://livesets.com/7mg-1/live"></a>
   <div class="count" id="count">Loading…</div>
   <ul class="songs" id="songs" hidden></ul>
   <div class="grid" id="grid"></div>

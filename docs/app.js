@@ -73,3 +73,30 @@ fetch("catalog.json", { cache: "no-cache" })
     render();
   })
   .catch(() => { $("#count").textContent = "Couldn't load the catalog."; });
+
+// Now playing: the turntable's stream title, read from the public Livesets (Icecast) status. Hidden when not live.
+const STATUS = "https://djuplink.com/status-json.xsl";
+const MOUNT = "/7mg1.ogg";
+async function nowPlaying() {
+  const box = $("#now");
+  try {
+    const st = (await (await fetch(STATUS, { cache: "no-store" })).json()).icestats;
+    const src = [].concat(st.source || []).find((x) => (x.listenurl || "").endsWith(MOUNT));
+    if (!src) { box.hidden = true; return; }
+    const title = (src.title || "").trim();
+    let line = "Between records", from = "", cover = "";
+    if (title && !/^(between records|unknown track)$/i.test(title)) {
+      line = title;
+      const [artist, song] = title.split(" - ");
+      const a = song && state.albums.find((x) => norm(x.artist).includes(norm(artist).split(" ")[0]) &&
+        x.tracks.some((t) => norm(t.title) === norm(song)));
+      if (a) { from = `from <i>${esc(a.title)}</i>`; cover = a.cover || ""; }
+    }
+    box.innerHTML = `${cover ? `<img src="${esc(cover)}" alt="">` : '<span style="font-size:2rem">📀</span>'}
+      <div><div class="live">🔴 ON THE TURNTABLE NOW</div><div class="np">${esc(line)}</div>
+      <div class="from">${from ? from + " · " : ""}listen live →</div></div>`;
+    box.hidden = false;
+  } catch { box.hidden = true; }
+}
+setTimeout(nowPlaying, 500);
+setInterval(nowPlaying, 30000);

@@ -329,7 +329,11 @@ def build(c, verbose=True):
     changed = []
     for key, r in found.items():
         old = c.execute("SELECT * FROM records WHERE key=?", (key,)).fetchone()
-        if old and old["manual"]:
+        if old and old["manual"]:          # added by name: keep it as imported, but record the plays
+            heard = json.loads(old["heard"] or "[]")
+            heard += [h for h in r["heard"] if not any(same(h, x) for x in heard)]
+            c.execute("UPDATE records SET heard=?, last_played=MAX(COALESCE(last_played, ''), ?), "
+                      "first_heard=COALESCE(first_heard, ?) WHERE key=?", (json.dumps(heard), r["last"], r["first"], key))
             continue
         heard = json.loads(old["heard"]) if old else []
         heard += [h for h in r["heard"] if not any(same(h, x) for x in heard)]
