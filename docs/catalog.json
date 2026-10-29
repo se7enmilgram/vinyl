@@ -8474,12 +8474,12 @@
     {
      "n": "9",
      "title": "Carrier Waves",
-     "heard": false
+     "heard": true
     },
     {
      "n": "10",
      "title": "Oh the Sunn!",
-     "heard": false
+     "heard": true
     },
     {
      "n": "11",
@@ -8557,7 +8557,7 @@
      "heard": false
     }
    ],
-   "last_played": null,
+   "last_played": "2026-10-28",
    "musicbrainz": "https://musicbrainz.org/release-group/ad5a6f0f-3444-4ebd-8a98-ce6dfb1bfabe"
   },
   {
