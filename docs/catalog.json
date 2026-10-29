@@ -9615,22 +9615,22 @@
     {
      "n": "A1",
      "title": "Strawberry Fields Forever",
-     "heard": false
+     "heard": true
     },
     {
      "n": "A2",
      "title": "Penny Lane",
-     "heard": false
+     "heard": true
     },
     {
      "n": "A3",
      "title": "Sgt. Pepper’s Lonely Hearts Club Band",
-     "heard": false
+     "heard": true
     },
     {
      "n": "A4",
      "title": "With a Little Help From My Friends",
-     "heard": false
+     "heard": true
     },
     {
      "n": "A5",
@@ -9753,7 +9753,7 @@
      "heard": false
     }
    ],
-   "last_played": null,
+   "last_played": "2026-10-28",
    "musicbrainz": "https://musicbrainz.org/release-group/f2e0599e-222b-37a5-8544-2f68ce65fd66"
   },
   {
