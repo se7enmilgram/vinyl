@@ -1,7 +1,7 @@
 {
  "version": 1,
  "generated": "2026-10-28",
- "count": 159,
+ "count": 162,
  "albums": [
   {
    "id": "rg:9fec57ed-2bf4-3ac9-844b-6d0a67fd2910",
@@ -1128,6 +1128,113 @@
    "musicbrainz": "https://musicbrainz.org/release-group/70b1a098-51b5-3647-939e-84662aa1bf59"
   },
   {
+   "id": "rg:f718b53e-5dda-4dfc-bfb3-9bbe1cb97bbd",
+   "kind": "LP",
+   "artist": "Cerrone",
+   "title": "The Best of Cerrone",
+   "year": "2021",
+   "cover": "covers/f718b53e-5dda-4dfc-bfb3-9bbe1cb97bbd.jpg",
+   "tracks": [
+    {
+     "n": "1",
+     "title": "Supernature",
+     "heard": false
+    },
+    {
+     "n": "2",
+     "title": "Cerrone's Paradise",
+     "heard": false
+    },
+    {
+     "n": "3",
+     "title": "Look for Love",
+     "heard": false
+    },
+    {
+     "n": "4",
+     "title": "Love Is Here",
+     "heard": false
+    },
+    {
+     "n": "5",
+     "title": "Je suis Music",
+     "heard": false
+    },
+    {
+     "n": "6",
+     "title": "Give Me Love",
+     "heard": false
+    },
+    {
+     "n": "7",
+     "title": "Freak Connection",
+     "heard": false
+    },
+    {
+     "n": "8",
+     "title": "Music of Life",
+     "heard": false
+    },
+    {
+     "n": "9",
+     "title": "2nd Chance",
+     "heard": false
+    },
+    {
+     "n": "10",
+     "title": "The Impact",
+     "heard": false
+    },
+    {
+     "n": "11",
+     "title": "Love in C Minor",
+     "heard": false
+    },
+    {
+     "n": "12",
+     "title": "You Are the One",
+     "heard": false
+    },
+    {
+     "n": "13",
+     "title": "Midnite Lady",
+     "heard": false
+    },
+    {
+     "n": "14",
+     "title": "Hooked on You",
+     "heard": false
+    },
+    {
+     "n": "15",
+     "title": "Therapy",
+     "heard": false
+    },
+    {
+     "n": "16",
+     "title": "Rocket in the Pocket",
+     "heard": false
+    },
+    {
+     "n": "17",
+     "title": "Bodytalk",
+     "heard": false
+    },
+    {
+     "n": "18",
+     "title": "Got to Have Lovin",
+     "heard": false
+    },
+    {
+     "n": "19",
+     "title": "Club Underworld",
+     "heard": false
+    }
+   ],
+   "last_played": null,
+   "musicbrainz": "https://musicbrainz.org/release-group/f718b53e-5dda-4dfc-bfb3-9bbe1cb97bbd"
+  },
+  {
    "id": "rg:a8187372-cdb3-3988-8923-619923f2d246",
    "kind": "LP",
    "artist": "Climax Blues Band",
@@ -1767,6 +1874,68 @@
    ],
    "last_played": null,
    "musicbrainz": "https://musicbrainz.org/release-group/5495ff00-06c2-3361-9284-ed729209dffc"
+  },
+  {
+   "id": "rg:3983e82c-8989-4aea-bf24-800db810d663",
+   "kind": "LP",
+   "artist": "DAMAG3",
+   "title": "BLiND",
+   "year": "2025",
+   "cover": "covers/3983e82c-8989-4aea-bf24-800db810d663.jpg",
+   "tracks": [
+    {
+     "n": "1",
+     "title": "GOD TiNNiTUS",
+     "heard": false
+    },
+    {
+     "n": "2",
+     "title": "HUNTR SHAFR",
+     "heard": false
+    },
+    {
+     "n": "3",
+     "title": "GOD iMAG3",
+     "heard": false
+    },
+    {
+     "n": "4",
+     "title": "BLOOD ON MY HANDS",
+     "heard": false
+    },
+    {
+     "n": "5",
+     "title": "TiM3 OF DA MONTH",
+     "heard": false
+    },
+    {
+     "n": "6",
+     "title": "BRAiLL3",
+     "heard": false
+    },
+    {
+     "n": "7",
+     "title": "hi_BODY_COUNT",
+     "heard": false
+    },
+    {
+     "n": "8",
+     "title": "SHOULD i STAY",
+     "heard": false
+    },
+    {
+     "n": "9",
+     "title": "3L3PHANT",
+     "heard": false
+    },
+    {
+     "n": "10",
+     "title": "BLiND",
+     "heard": false
+    }
+   ],
+   "last_played": null,
+   "musicbrainz": "https://musicbrainz.org/release-group/3983e82c-8989-4aea-bf24-800db810d663"
   },
   {
    "id": "rg:95cc2c8a-1e35-30ff-a8e2-3f07bc02c134",
@@ -4871,6 +5040,53 @@
    ],
    "last_played": null,
    "musicbrainz": "https://musicbrainz.org/release-group/ce0cca72-d865-30b9-9667-47241049fd18"
+  },
+  {
+   "id": "rg:2fbf4c3e-09e5-38f0-ae59-fbdc9ea16b87",
+   "kind": "LP",
+   "artist": "Led Zeppelin",
+   "title": "In Through the Out Door",
+   "year": "1979",
+   "cover": "covers/2fbf4c3e-09e5-38f0-ae59-fbdc9ea16b87.jpg",
+   "tracks": [
+    {
+     "n": "A1",
+     "title": "In the Evening",
+     "heard": false
+    },
+    {
+     "n": "A2",
+     "title": "South Bound Saurez",
+     "heard": false
+    },
+    {
+     "n": "A3",
+     "title": "Fool in the Rain",
+     "heard": false
+    },
+    {
+     "n": "A4",
+     "title": "Hot Dog",
+     "heard": false
+    },
+    {
+     "n": "B1",
+     "title": "Carouselambra",
+     "heard": false
+    },
+    {
+     "n": "B2",
+     "title": "All My Love",
+     "heard": false
+    },
+    {
+     "n": "B3",
+     "title": "I’m Gonna Crawl",
+     "heard": false
+    }
+   ],
+   "last_played": null,
+   "musicbrainz": "https://musicbrainz.org/release-group/2fbf4c3e-09e5-38f0-ae59-fbdc9ea16b87"
   },
   {
    "id": "rg:61de0438-6c34-363f-904e-b4d6267c79b9",
