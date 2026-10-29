@@ -1,7 +1,7 @@
 {
  "version": 1,
  "generated": "2026-10-28",
- "count": 162,
+ "count": 163,
  "albums": [
   {
    "id": "rg:9fec57ed-2bf4-3ac9-844b-6d0a67fd2910",
@@ -11348,6 +11348,73 @@
    ],
    "last_played": null,
    "musicbrainz": "https://musicbrainz.org/release-group/1d247c61-91af-37e4-9ba3-f1629cd1dc81"
+  },
+  {
+   "id": "rg:b93cd475-3dcb-3284-a9ab-e0e4f724b85c",
+   "kind": "LP",
+   "artist": "Waylon & Willie",
+   "title": "Waylon & Willie",
+   "year": "1978",
+   "cover": "covers/b93cd475-3dcb-3284-a9ab-e0e4f724b85c.jpg",
+   "tracks": [
+    {
+     "n": "A1",
+     "title": "Mamas Don’t Let Your Babies Grow Up to Be Cowboys",
+     "heard": false
+    },
+    {
+     "n": "A2",
+     "title": "The Year 2003 Minus 25",
+     "heard": false
+    },
+    {
+     "n": "A3",
+     "title": "Pick Up the Tempo",
+     "heard": false
+    },
+    {
+     "n": "A4",
+     "title": "If You Can Touch Her at All",
+     "heard": false
+    },
+    {
+     "n": "A5",
+     "title": "Lookin’ for a Feeling",
+     "heard": false
+    },
+    {
+     "n": "A6",
+     "title": "It’s Not Supposed to Be That Way",
+     "heard": false
+    },
+    {
+     "n": "B1",
+     "title": "I Can Get Off on You",
+     "heard": false
+    },
+    {
+     "n": "B2",
+     "title": "Don’t Cuss the Fiddle",
+     "heard": false
+    },
+    {
+     "n": "B3",
+     "title": "Gold Dust Woman",
+     "heard": false
+    },
+    {
+     "n": "B4",
+     "title": "A Couple More Years",
+     "heard": false
+    },
+    {
+     "n": "b5",
+     "title": "The Wurlitzer Prize (I Don’t Want to Get Over You)",
+     "heard": false
+    }
+   ],
+   "last_played": null,
+   "musicbrainz": "https://musicbrainz.org/release-group/b93cd475-3dcb-3284-a9ab-e0e4f724b85c"
   },
   {
    "id": "rg:4fe1b8f8-7574-4c99-b3ce-167a89d240e1",
