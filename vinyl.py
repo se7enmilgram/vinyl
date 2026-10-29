@@ -297,6 +297,26 @@ def album_auto(tracks, heard_in_order, vinyl):
     return None
 
 
+def owned_match(c, artist, titles):
+    """A record you already own that this side fits (songs in tracklist order; same tolerance as auto-confirm).
+    Checked before MusicBrainz so a side of, say, your Best of Cerrone isn't credited to another compilation."""
+    a0 = norm(main_artist(artist))
+    best = None
+    for r in c.execute("SELECT * FROM records WHERE status='confirmed' AND rgid IS NOT NULL"):
+        if a0 not in norm(r["artist"]):
+            continue
+        tracks = json.loads(r["tracks"])
+        idx = positions(tracks, titles)
+        pos = [i for i in idx if i is not None]
+        if len(pos) < min(2, len(titles)) or sum(i is None for i in idx) > 1:
+            continue
+        if any(b <= x for x, b in zip(pos, pos[1:])):
+            continue
+        if best is None or len(pos) > best[1]:
+            best = (r, len(pos))
+    return best[0] if best else None
+
+
 def build(c, verbose=True):
     """Recompute candidates from all events; keep each record's status."""
     found = {}   # key -> record dict
@@ -335,6 +355,12 @@ def build(c, verbose=True):
                 merge(key, rec, both if reason else titles, when, reason)
                 continue
 
+            own = owned_match(c, artist, titles)
+            if own:                                  # plays of a record you own: credit it, no lookup needed
+                rec = {"kind": own["kind"], "artist": own["artist"], "title": own["title"], "rgid": own["rgid"],
+                       "release_id": own["release_id"], "tracks": json.loads(own["tracks"]), "year": own["year"]}
+                merge(own["key"], rec, titles, when, None)
+                continue
             rg = resolve_album(c, artist, evs, evs[0].get("album") or "")
             if rg:
                 rel = best_release(c, rg["id"], titles) or {"release_id": None, "tracks": [], "vinyl": False, "year": None}
