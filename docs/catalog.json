@@ -1,7 +1,7 @@
 {
  "version": 1,
  "generated": "2026-10-28",
- "count": 166,
+ "count": 167,
  "albums": [
   {
    "id": "rg:9fec57ed-2bf4-3ac9-844b-6d0a67fd2910",
@@ -10459,6 +10459,1653 @@
    ],
    "last_played": null,
    "musicbrainz": "https://musicbrainz.org/release-group/38bb6153-0263-48de-af21-11a1a8479508"
+  },
+  {
+   "id": "rg:453eb20f-1560-40e2-ab04-fb6466f5866c",
+   "kind": "LP",
+   "artist": "The Beatles",
+   "title": "The Lost Album (Two and a Half)",
+   "year": "2019",
+   "cover": "covers/453eb20f-1560-40e2-ab04-fb6466f5866c.jpg",
+   "tracks": [
+    {
+     "n": "1",
+     "title": "Overture",
+     "heard": false
+    },
+    {
+     "n": "2",
+     "title": "Strawberry Fields Forever",
+     "heard": true
+    },
+    {
+     "n": "3",
+     "title": "Penny Lane",
+     "heard": true
+    },
+    {
+     "n": "4",
+     "title": "Lucy In The Sky With Diamonds",
+     "heard": false
+    },
+    {
+     "n": "5",
+     "title": "Good Morning Good Morning",
+     "heard": false
+    },
+    {
+     "n": "6",
+     "title": "Only A Northern Song",
+     "heard": false
+    },
+    {
+     "n": "7",
+     "title": "Being For The Benefit Of Mr. Kite!",
+     "heard": false
+    },
+    {
+     "n": "8",
+     "title": "I'm So Tired",
+     "heard": false
+    },
+    {
+     "n": "9",
+     "title": "Mother Nature's Son",
+     "heard": false
+    },
+    {
+     "n": "10",
+     "title": "Birthday (Instrumental)",
+     "heard": false
+    },
+    {
+     "n": "11",
+     "title": "While My Guitar Gently Weeps",
+     "heard": false
+    },
+    {
+     "n": "12",
+     "title": "Savoy Truffle (Instrumental)",
+     "heard": false
+    },
+    {
+     "n": "13",
+     "title": "Children At Your Feet",
+     "heard": false
+    },
+    {
+     "n": "14",
+     "title": "Lady Madonna",
+     "heard": false
+    },
+    {
+     "n": "15",
+     "title": "I Me Mine",
+     "heard": false
+    },
+    {
+     "n": "16",
+     "title": "Dig A Pony",
+     "heard": false
+    },
+    {
+     "n": "17",
+     "title": "I've Got A Feeling",
+     "heard": false
+    },
+    {
+     "n": "18",
+     "title": "Glass Onion",
+     "heard": false
+    },
+    {
+     "n": "19",
+     "title": "I Will",
+     "heard": false
+    },
+    {
+     "n": "20",
+     "title": "The Continuing Story Of Bungalow Bill",
+     "heard": false
+    },
+    {
+     "n": "21",
+     "title": "Yer Blues (Instrumental)",
+     "heard": false
+    },
+    {
+     "n": "22",
+     "title": "The David Frost Theme",
+     "heard": false
+    },
+    {
+     "n": "23",
+     "title": "Revolution",
+     "heard": false
+    },
+    {
+     "n": "24",
+     "title": "Blackbird",
+     "heard": false
+    },
+    {
+     "n": "25",
+     "title": "A Day In The Life",
+     "heard": false
+    },
+    {
+     "n": "26",
+     "title": "Across The Universe",
+     "heard": false
+    },
+    {
+     "n": "27",
+     "title": "Let It Be",
+     "heard": false
+    },
+    {
+     "n": "28",
+     "title": "Hello, Goodbye",
+     "heard": false
+    },
+    {
+     "n": "29",
+     "title": "Circles",
+     "heard": false
+    },
+    {
+     "n": "1",
+     "title": "Your Mother Should Know",
+     "heard": false
+    },
+    {
+     "n": "2",
+     "title": "Got To Get You Into My Life",
+     "heard": false
+    },
+    {
+     "n": "3",
+     "title": "I'm Only Sleeping",
+     "heard": false
+    },
+    {
+     "n": "4",
+     "title": "The Fool On The Hill",
+     "heard": false
+    },
+    {
+     "n": "5",
+     "title": "I Am The Walrus",
+     "heard": false
+    },
+    {
+     "n": "6",
+     "title": "Tomorrow Never Knows",
+     "heard": false
+    },
+    {
+     "n": "7",
+     "title": "Sgt. Pepper's Lonely Hearts Club Band",
+     "heard": false
+    },
+    {
+     "n": "8",
+     "title": "Strawberry Fields Forever",
+     "heard": true
+    },
+    {
+     "n": "9",
+     "title": "Here,There And Everywhere",
+     "heard": false
+    },
+    {
+     "n": "10",
+     "title": "Cry Baby Cry",
+     "heard": false
+    },
+    {
+     "n": "11",
+     "title": "Mother Nature's Son",
+     "heard": false
+    },
+    {
+     "n": "12",
+     "title": "I'm So Tired",
+     "heard": false
+    },
+    {
+     "n": "13",
+     "title": "Blackbird",
+     "heard": false
+    },
+    {
+     "n": "14",
+     "title": "Sexy Sadie",
+     "heard": false
+    },
+    {
+     "n": "15",
+     "title": "While My Guitar Gently Weeps",
+     "heard": false
+    },
+    {
+     "n": "16",
+     "title": "Happiness Is A Warm Gun",
+     "heard": false
+    },
+    {
+     "n": "17",
+     "title": "Maxwell's Silver Hammer",
+     "heard": false
+    },
+    {
+     "n": "18",
+     "title": "All You Need Is Love",
+     "heard": false
+    },
+    {
+     "n": "19",
+     "title": "Helter Skelter",
+     "heard": false
+    },
+    {
+     "n": "20",
+     "title": "Get Together",
+     "heard": false
+    },
+    {
+     "n": "21",
+     "title": "Revolution",
+     "heard": false
+    },
+    {
+     "n": "22",
+     "title": "Hey Jude",
+     "heard": false
+    },
+    {
+     "n": "23",
+     "title": "Polythene Pam",
+     "heard": false
+    },
+    {
+     "n": "24",
+     "title": "The Lonely Hearts Club Band",
+     "heard": false
+    },
+    {
+     "n": "25",
+     "title": "A Day In The Life",
+     "heard": false
+    },
+    {
+     "n": "1",
+     "title": "Magical Mystery Tour",
+     "heard": false
+    },
+    {
+     "n": "2",
+     "title": "Strawberry Fields Forever (Instrumental)",
+     "heard": true
+    },
+    {
+     "n": "3",
+     "title": "Norwegian Wood",
+     "heard": false
+    },
+    {
+     "n": "4",
+     "title": "While My Guitar Gently Weeps",
+     "heard": false
+    },
+    {
+     "n": "5",
+     "title": "Fixing A Hole",
+     "heard": false
+    },
+    {
+     "n": "6",
+     "title": "Taxman",
+     "heard": false
+    },
+    {
+     "n": "7",
+     "title": "I'm Looking Through You",
+     "heard": false
+    },
+    {
+     "n": "8",
+     "title": "Two Of Us",
+     "heard": false
+    },
+    {
+     "n": "9",
+     "title": "We Can Work It Out",
+     "heard": false
+    },
+    {
+     "n": "10",
+     "title": "Blackbird",
+     "heard": false
+    },
+    {
+     "n": "11",
+     "title": "And Your Bird Can Sing",
+     "heard": false
+    },
+    {
+     "n": "12",
+     "title": "Day Tripper",
+     "heard": false
+    },
+    {
+     "n": "13",
+     "title": "I'm So Tired",
+     "heard": false
+    },
+    {
+     "n": "14",
+     "title": "Sgt Pepper's Lonely Hearts Club Band (Instrumental)",
+     "heard": false
+    },
+    {
+     "n": "15",
+     "title": "A Beginning_Don’t Pass Me By",
+     "heard": false
+    },
+    {
+     "n": "16",
+     "title": "When I'm 64",
+     "heard": false
+    },
+    {
+     "n": "17",
+     "title": "Come Together",
+     "heard": false
+    },
+    {
+     "n": "18",
+     "title": "Because",
+     "heard": false
+    },
+    {
+     "n": "19",
+     "title": "Paperback Writer",
+     "heard": false
+    },
+    {
+     "n": "20",
+     "title": "I Will",
+     "heard": false
+    },
+    {
+     "n": "21",
+     "title": "And Your Bird Can Sing (Instrumental)",
+     "heard": false
+    },
+    {
+     "n": "22",
+     "title": "What's The New Mary Jane",
+     "heard": false
+    },
+    {
+     "n": "23",
+     "title": "Ob-La-Di, Ob-La-Da",
+     "heard": false
+    },
+    {
+     "n": "24",
+     "title": "Sour Milk Sea",
+     "heard": false
+    },
+    {
+     "n": "25",
+     "title": "Day Tripper (Instrumental)",
+     "heard": false
+    },
+    {
+     "n": "26",
+     "title": "We Can Work It Out (Instrumental)",
+     "heard": false
+    },
+    {
+     "n": "27",
+     "title": "Blue Jay Way",
+     "heard": false
+    },
+    {
+     "n": "28",
+     "title": "Strawberry Fields Forever",
+     "heard": true
+    },
+    {
+     "n": "29",
+     "title": "Hey Jude",
+     "heard": false
+    },
+    {
+     "n": "1",
+     "title": "What A Shame...",
+     "heard": false
+    },
+    {
+     "n": "2",
+     "title": "Lovely Rita (Instrumental)",
+     "heard": false
+    },
+    {
+     "n": "3",
+     "title": "Woke Up",
+     "heard": false
+    },
+    {
+     "n": "4",
+     "title": "...Mary Jane",
+     "heard": false
+    },
+    {
+     "n": "5",
+     "title": "Strawberry Fields Forever",
+     "heard": true
+    },
+    {
+     "n": "6",
+     "title": "This Bird Has Flown",
+     "heard": false
+    },
+    {
+     "n": "7",
+     "title": "Julia (Instrumental)",
+     "heard": false
+    },
+    {
+     "n": "8",
+     "title": "Julia",
+     "heard": false
+    },
+    {
+     "n": "9",
+     "title": "Think For Yourself",
+     "heard": false
+    },
+    {
+     "n": "10",
+     "title": "What's The New Mary Jane",
+     "heard": false
+    },
+    {
+     "n": "11",
+     "title": "The Fool On The Hill",
+     "heard": false
+    },
+    {
+     "n": "12",
+     "title": "Catswalk",
+     "heard": false
+    },
+    {
+     "n": "13",
+     "title": "Mr. Moonlight",
+     "heard": false
+    },
+    {
+     "n": "14",
+     "title": "Fly",
+     "heard": false
+    },
+    {
+     "n": "1",
+     "title": "Strawberry Fields Forever",
+     "heard": true
+    },
+    {
+     "n": "2",
+     "title": "Being for the Benefit of Mr. Kite!",
+     "heard": false
+    },
+    {
+     "n": "3",
+     "title": "Julia",
+     "heard": false
+    },
+    {
+     "n": "4",
+     "title": "Come On, Come On",
+     "heard": false
+    },
+    {
+     "n": "5",
+     "title": "Hey Jude",
+     "heard": false
+    },
+    {
+     "n": "6",
+     "title": "With A Little Help From My Friends (Instrumental)",
+     "heard": false
+    },
+    {
+     "n": "7",
+     "title": "a B road",
+     "heard": false
+    },
+    {
+     "n": "8",
+     "title": "While My Guitar Gently Weeps",
+     "heard": false
+    },
+    {
+     "n": "9",
+     "title": "Julia",
+     "heard": false
+    },
+    {
+     "n": "10",
+     "title": "Do You Want To Know A Secret",
+     "heard": false
+    },
+    {
+     "n": "11",
+     "title": "A Taste Of Honey",
+     "heard": false
+    },
+    {
+     "n": "12",
+     "title": "Don't Bother Me",
+     "heard": false
+    },
+    {
+     "n": "13",
+     "title": "I'm A Loser",
+     "heard": false
+    },
+    {
+     "n": "14",
+     "title": "She's A Woman",
+     "heard": false
+    },
+    {
+     "n": "15",
+     "title": "You've Got To Hide Your Love Away",
+     "heard": false
+    },
+    {
+     "n": "16",
+     "title": "I Feel Fine",
+     "heard": false
+    },
+    {
+     "n": "17",
+     "title": "It's Only Love",
+     "heard": false
+    },
+    {
+     "n": "18",
+     "title": "No Reply",
+     "heard": false
+    },
+    {
+     "n": "19",
+     "title": "Yes It Is",
+     "heard": false
+    },
+    {
+     "n": "20",
+     "title": "What You're Doing",
+     "heard": false
+    },
+    {
+     "n": "21",
+     "title": "This Boy",
+     "heard": false
+    },
+    {
+     "n": "22",
+     "title": "That Means A Lot",
+     "heard": false
+    },
+    {
+     "n": "23",
+     "title": "I'll Be Back",
+     "heard": false
+    },
+    {
+     "n": "24",
+     "title": "Can't Buy Me Love (Around the Beatles)",
+     "heard": false
+    },
+    {
+     "n": "25",
+     "title": "Hey Jude",
+     "heard": false
+    },
+    {
+     "n": "1",
+     "title": "Can't Buy Me Love",
+     "heard": false
+    },
+    {
+     "n": "2",
+     "title": "And I Love Her",
+     "heard": false
+    },
+    {
+     "n": "3",
+     "title": "I Wanna Be Your Man (Around the Beatles)",
+     "heard": false
+    },
+    {
+     "n": "4",
+     "title": "That Means A Lot",
+     "heard": false
+    },
+    {
+     "n": "5",
+     "title": "Kansas City, Hey-Hey-Hey-Hey!",
+     "heard": false
+    },
+    {
+     "n": "6",
+     "title": "Ticket To Ride",
+     "heard": false
+    },
+    {
+     "n": "7",
+     "title": "That Means A Lot",
+     "heard": false
+    },
+    {
+     "n": "8",
+     "title": "I Saw Her Standing There (Stockholm)",
+     "heard": false
+    },
+    {
+     "n": "9",
+     "title": "From Me To You (Stockholm)",
+     "heard": false
+    },
+    {
+     "n": "10",
+     "title": "Money (That's What I Want) (Stockholm)",
+     "heard": false
+    },
+    {
+     "n": "11",
+     "title": "You Really Got A Hold On Me (Stockholm)",
+     "heard": false
+    },
+    {
+     "n": "12",
+     "title": "Roll Over Beethoven (Stockholm)",
+     "heard": false
+    },
+    {
+     "n": "13",
+     "title": "Yesterday",
+     "heard": false
+    },
+    {
+     "n": "14",
+     "title": "I'm Down",
+     "heard": false
+    },
+    {
+     "n": "15",
+     "title": "Help! (Instrumental)",
+     "heard": false
+    },
+    {
+     "n": "16",
+     "title": "Long Tall Sally (Around the Beatles)",
+     "heard": false
+    },
+    {
+     "n": "17",
+     "title": "There's A Place",
+     "heard": false
+    },
+    {
+     "n": "18",
+     "title": "Boys (Around the Beatles)",
+     "heard": false
+    },
+    {
+     "n": "19",
+     "title": "I'll Be Back",
+     "heard": false
+    },
+    {
+     "n": "20",
+     "title": "Misery",
+     "heard": false
+    },
+    {
+     "n": "21",
+     "title": "That Means A Lot",
+     "heard": false
+    },
+    {
+     "n": "22",
+     "title": "From Me To You",
+     "heard": false
+    },
+    {
+     "n": "23",
+     "title": "Till There Was You",
+     "heard": false
+    },
+    {
+     "n": "24",
+     "title": "How Do You Do It",
+     "heard": false
+    },
+    {
+     "n": "25",
+     "title": "Love Me Do",
+     "heard": false
+    },
+    {
+     "n": "26",
+     "title": "The Sheik Of Araby",
+     "heard": false
+    },
+    {
+     "n": "27",
+     "title": "Money (That's What I Want)",
+     "heard": false
+    },
+    {
+     "n": "28",
+     "title": "Searchin'",
+     "heard": false
+    },
+    {
+     "n": "29",
+     "title": "I Just Don't Understand",
+     "heard": false
+    },
+    {
+     "n": "30",
+     "title": "Dizzy Miss Lizzy",
+     "heard": false
+    },
+    {
+     "n": "31",
+     "title": "Help!",
+     "heard": false
+    },
+    {
+     "n": "32",
+     "title": "If You've Got Trouble",
+     "heard": false
+    },
+    {
+     "n": "33",
+     "title": "That Means A Lot",
+     "heard": false
+    },
+    {
+     "n": "34",
+     "title": "Shout (Around the Beatles)",
+     "heard": false
+    },
+    {
+     "n": "1",
+     "title": "Get Back",
+     "heard": false
+    },
+    {
+     "n": "2",
+     "title": "Carry That Weight",
+     "heard": false
+    },
+    {
+     "n": "3",
+     "title": "Are You Ready?",
+     "heard": false
+    },
+    {
+     "n": "4",
+     "title": "Rocker (I'm Ready)",
+     "heard": false
+    },
+    {
+     "n": "5",
+     "title": "Save The Last Dance For Me",
+     "heard": false
+    },
+    {
+     "n": "6",
+     "title": "Don't Let Me Down",
+     "heard": false
+    },
+    {
+     "n": "7",
+     "title": "Dig A Pony",
+     "heard": false
+    },
+    {
+     "n": "8",
+     "title": "I've Got A Feeling",
+     "heard": false
+    },
+    {
+     "n": "9",
+     "title": "Get Back",
+     "heard": false
+    },
+    {
+     "n": "10",
+     "title": "For You Blue",
+     "heard": false
+    },
+    {
+     "n": "11",
+     "title": "Two Of Us",
+     "heard": false
+    },
+    {
+     "n": "12",
+     "title": "Maggie Mae",
+     "heard": false
+    },
+    {
+     "n": "13",
+     "title": "(Rip It Up) Shake, Rattle And Roll",
+     "heard": false
+    },
+    {
+     "n": "14",
+     "title": "Blue Suede Shoes",
+     "heard": false
+    },
+    {
+     "n": "15",
+     "title": "Let It Be",
+     "heard": false
+    },
+    {
+     "n": "16",
+     "title": "The Long And Winding Road",
+     "heard": false
+    },
+    {
+     "n": "17",
+     "title": "Across The Universe",
+     "heard": false
+    },
+    {
+     "n": "18",
+     "title": "Two Of Us",
+     "heard": false
+    },
+    {
+     "n": "19",
+     "title": "For You Blue",
+     "heard": false
+    },
+    {
+     "n": "20",
+     "title": "Teddy Boy",
+     "heard": false
+    },
+    {
+     "n": "21",
+     "title": "I've Got A Feeling",
+     "heard": false
+    },
+    {
+     "n": "22",
+     "title": "The Long And Winding Road",
+     "heard": false
+    },
+    {
+     "n": "23",
+     "title": "Get Back",
+     "heard": false
+    },
+    {
+     "n": "24",
+     "title": "Dig It",
+     "heard": false
+    },
+    {
+     "n": "25",
+     "title": "Across The Universe",
+     "heard": false
+    },
+    {
+     "n": "26",
+     "title": "The Tracks Of My Tears",
+     "heard": false
+    },
+    {
+     "n": "27",
+     "title": "Goodnight",
+     "heard": false
+    },
+    {
+     "n": "1",
+     "title": "Twist And Shout (Hollywood Bowl)",
+     "heard": false
+    },
+    {
+     "n": "2",
+     "title": "She's A Woman (Hollywood Bowl)",
+     "heard": false
+    },
+    {
+     "n": "3",
+     "title": "Things We Said Today (Hollywood Bowl)",
+     "heard": false
+    },
+    {
+     "n": "4",
+     "title": "Roll Over Beethoven (Hollywood Bowl)",
+     "heard": false
+    },
+    {
+     "n": "5",
+     "title": "Boys (Hollywood Bowl)",
+     "heard": false
+    },
+    {
+     "n": "6",
+     "title": "You Can’t Do That (Hollywood Bowl)",
+     "heard": false
+    },
+    {
+     "n": "7",
+     "title": "I Want To Hold Your Hand (Hollywood Bowl)",
+     "heard": false
+    },
+    {
+     "n": "8",
+     "title": "Everybody's Trying To Be My Baby (Hollywood Bowl)",
+     "heard": false
+    },
+    {
+     "n": "9",
+     "title": "Baby's In Black (Hollywood Bowl)",
+     "heard": false
+    },
+    {
+     "n": "10",
+     "title": "Can't Buy Me Love (Hollywood Bowl)",
+     "heard": false
+    },
+    {
+     "n": "11",
+     "title": "Dizzy Miss Lizzy (Hollywood Bowl)",
+     "heard": false
+    },
+    {
+     "n": "12",
+     "title": "Ticket To Ride (Hollywood Bowl)",
+     "heard": false
+    },
+    {
+     "n": "13",
+     "title": "A Hard Day's Night (Hollywood Bowl)",
+     "heard": false
+    },
+    {
+     "n": "14",
+     "title": "Help! (Hollywood Bowl)",
+     "heard": false
+    },
+    {
+     "n": "15",
+     "title": "All My Loving (Hollywood Bowl)",
+     "heard": false
+    },
+    {
+     "n": "16",
+     "title": "She Loves You (Hollywood Bowl)",
+     "heard": false
+    },
+    {
+     "n": "17",
+     "title": "Long Tall Sally (Hollywood Bowl)",
+     "heard": false
+    },
+    {
+     "n": "18",
+     "title": "Act Naturally",
+     "heard": false
+    },
+    {
+     "n": "19",
+     "title": "Roll Over Beethoven (Around The Beatles)",
+     "heard": false
+    },
+    {
+     "n": "20",
+     "title": "The Hippy Hippy Shake",
+     "heard": false
+    },
+    {
+     "n": "21",
+     "title": "A Taste of Honey",
+     "heard": false
+    },
+    {
+     "n": "22",
+     "title": "I Got A Woman",
+     "heard": false
+    },
+    {
+     "n": "23",
+     "title": "Do You Want To Know A Secret",
+     "heard": false
+    },
+    {
+     "n": "24",
+     "title": "Sure To Fall (In Love With You)",
+     "heard": false
+    },
+    {
+     "n": "25",
+     "title": "This Boy",
+     "heard": false
+    },
+    {
+     "n": "26",
+     "title": "I Saw Her Standing There",
+     "heard": false
+    },
+    {
+     "n": "27",
+     "title": "Please Please Me",
+     "heard": false
+    },
+    {
+     "n": "28",
+     "title": "Memphis, Tennessee",
+     "heard": false
+    },
+    {
+     "n": "29",
+     "title": "P.S. I Love You",
+     "heard": false
+    },
+    {
+     "n": "30",
+     "title": "Too Much Monkey Business",
+     "heard": false
+    },
+    {
+     "n": "31",
+     "title": "Lucille",
+     "heard": false
+    },
+    {
+     "n": "32",
+     "title": "Money (That's What I Want)",
+     "heard": false
+    },
+    {
+     "n": "33",
+     "title": "Kansas City, Hey-Hey-Hey-Hey!",
+     "heard": false
+    },
+    {
+     "n": "1",
+     "title": "The Continuing Story Of Bungalow Bill",
+     "heard": false
+    },
+    {
+     "n": "2",
+     "title": "Ob-La-Di, Ob-La-Da",
+     "heard": false
+    },
+    {
+     "n": "3",
+     "title": "Julia",
+     "heard": false
+    },
+    {
+     "n": "4",
+     "title": "Don't Let Me Down",
+     "heard": false
+    },
+    {
+     "n": "5",
+     "title": "Can You Dig It? (V)",
+     "heard": false
+    },
+    {
+     "n": "6",
+     "title": "Cold Turkey",
+     "heard": false
+    },
+    {
+     "n": "7",
+     "title": "Give Peace A Chance",
+     "heard": false
+    },
+    {
+     "n": "8",
+     "title": "Hey Jude",
+     "heard": false
+    },
+    {
+     "n": "9",
+     "title": "I've Got My Blue Finger",
+     "heard": false
+    },
+    {
+     "n": "10",
+     "title": "Just Fun (10)",
+     "heard": false
+    },
+    {
+     "n": "11",
+     "title": "Just Fun (11)",
+     "heard": false
+    },
+    {
+     "n": "12",
+     "title": "Just Fun (12)",
+     "heard": false
+    },
+    {
+     "n": "13",
+     "title": "Just Fun (13)",
+     "heard": false
+    },
+    {
+     "n": "14",
+     "title": "Just Fun (14)",
+     "heard": false
+    },
+    {
+     "n": "15",
+     "title": "Just Having Some Fun (Part One)",
+     "heard": false
+    },
+    {
+     "n": "16",
+     "title": "Just Having Some Fun (Part Two)",
+     "heard": false
+    },
+    {
+     "n": "1",
+     "title": "Beatle Greetings",
+     "heard": false
+    },
+    {
+     "n": "2",
+     "title": "From Us To You",
+     "heard": false
+    },
+    {
+     "n": "3",
+     "title": "I’m A Loser",
+     "heard": false
+    },
+    {
+     "n": "4",
+     "title": "Words Of Love",
+     "heard": false
+    },
+    {
+     "n": "5",
+     "title": "I'll Follow The Sun",
+     "heard": false
+    },
+    {
+     "n": "6",
+     "title": "If I Fell",
+     "heard": false
+    },
+    {
+     "n": "7",
+     "title": "A Hard Day’s Night",
+     "heard": false
+    },
+    {
+     "n": "8",
+     "title": "Can’t Buy Me Love",
+     "heard": false
+    },
+    {
+     "n": "9",
+     "title": "Roll Over Beethoven",
+     "heard": false
+    },
+    {
+     "n": "10",
+     "title": "Ask Me Why",
+     "heard": false
+    },
+    {
+     "n": "11",
+     "title": "Long Tall Sally",
+     "heard": false
+    },
+    {
+     "n": "12",
+     "title": "There's A Place",
+     "heard": false
+    },
+    {
+     "n": "13",
+     "title": "Glad All Over",
+     "heard": false
+    },
+    {
+     "n": "14",
+     "title": "Please Please Me",
+     "heard": false
+    },
+    {
+     "n": "15",
+     "title": "Kansas City, Hey-Hey-Hey-Hey!",
+     "heard": false
+    },
+    {
+     "n": "16",
+     "title": "Till There Was You",
+     "heard": false
+    },
+    {
+     "n": "17",
+     "title": "Boys",
+     "heard": false
+    },
+    {
+     "n": "18",
+     "title": "Sure To Fall (In Love With You)",
+     "heard": false
+    },
+    {
+     "n": "19",
+     "title": "From Me To You",
+     "heard": false
+    },
+    {
+     "n": "20",
+     "title": "She Loves You",
+     "heard": false
+    },
+    {
+     "n": "21",
+     "title": "Twist And Shout",
+     "heard": false
+    },
+    {
+     "n": "22",
+     "title": "Please Mister Postman",
+     "heard": false
+    },
+    {
+     "n": "23",
+     "title": "Everybody’s Trying To Be My Baby",
+     "heard": false
+    },
+    {
+     "n": "24",
+     "title": "I Feel Fine",
+     "heard": false
+    },
+    {
+     "n": "25",
+     "title": "Run For Your Life",
+     "heard": false
+    },
+    {
+     "n": "26",
+     "title": "Day Tripper (Budokan Hall)",
+     "heard": false
+    },
+    {
+     "n": "27",
+     "title": "Nowhere Man (Budokan Hall)",
+     "heard": false
+    },
+    {
+     "n": "28",
+     "title": "Baby's In Black (Budokan Hall)",
+     "heard": false
+    },
+    {
+     "n": "29",
+     "title": "Yesterday (Budokan Hall)",
+     "heard": false
+    },
+    {
+     "n": "30",
+     "title": "Paperback Writer (Budokan Hall)",
+     "heard": false
+    },
+    {
+     "n": "31",
+     "title": "I Feel Fine (Budokan Hall)",
+     "heard": false
+    },
+    {
+     "n": "32",
+     "title": "If I Needed Someone (Budokan Hall)",
+     "heard": false
+    },
+    {
+     "n": "33",
+     "title": "I Wanna Be Your Man (Budokan Hall)",
+     "heard": false
+    },
+    {
+     "n": "34",
+     "title": "Rock And Roll Music (Budokan Hall)",
+     "heard": false
+    },
+    {
+     "n": "35",
+     "title": "She's A Woman (Budokan Hall)",
+     "heard": false
+    },
+    {
+     "n": "36",
+     "title": "I'm Down (Budokan Hall)",
+     "heard": false
+    },
+    {
+     "n": "1",
+     "title": "Love Me Do",
+     "heard": false
+    },
+    {
+     "n": "2",
+     "title": "And I Love Her",
+     "heard": false
+    },
+    {
+     "n": "3",
+     "title": "Crying, Waiting, Hoping",
+     "heard": false
+    },
+    {
+     "n": "4",
+     "title": "Rock And Roll Music",
+     "heard": false
+    },
+    {
+     "n": "5",
+     "title": "Till There Was You",
+     "heard": false
+    },
+    {
+     "n": "6",
+     "title": "Honey Don’t",
+     "heard": false
+    },
+    {
+     "n": "7",
+     "title": "To Know Her Is To Love Her",
+     "heard": false
+    },
+    {
+     "n": "8",
+     "title": "All My Loving",
+     "heard": false
+    },
+    {
+     "n": "9",
+     "title": "Chains",
+     "heard": false
+    },
+    {
+     "n": "10",
+     "title": "Things We Said Today",
+     "heard": false
+    },
+    {
+     "n": "11",
+     "title": "Dear Wack!",
+     "heard": false
+    },
+    {
+     "n": "12",
+     "title": "You Really Got A Hold On Me",
+     "heard": false
+    },
+    {
+     "n": "13",
+     "title": "She’s A Woman",
+     "heard": false
+    },
+    {
+     "n": "14",
+     "title": "I Wanna Be Your Man",
+     "heard": false
+    },
+    {
+     "n": "15",
+     "title": "Anna (Go To Him)",
+     "heard": false
+    },
+    {
+     "n": "16",
+     "title": "Matchbox",
+     "heard": false
+    },
+    {
+     "n": "17",
+     "title": "Baby It’s You",
+     "heard": false
+    },
+    {
+     "n": "18",
+     "title": "I Want To Hold Your Hand",
+     "heard": false
+    },
+    {
+     "n": "19",
+     "title": "Devil In Her Heart",
+     "heard": false
+    },
+    {
+     "n": "20",
+     "title": "Thank You Girl",
+     "heard": false
+    },
+    {
+     "n": "21",
+     "title": "Misery",
+     "heard": false
+    },
+    {
+     "n": "22",
+     "title": "Long Tall Sally",
+     "heard": false
+    },
+    {
+     "n": "23",
+     "title": "I'll Get You",
+     "heard": false
+    },
+    {
+     "n": "24",
+     "title": "Honey Don't",
+     "heard": false
+    },
+    {
+     "n": "25",
+     "title": "You Can't Do That",
+     "heard": false
+    },
+    {
+     "n": "26",
+     "title": "Ticket To Ride",
+     "heard": false
+    },
+    {
+     "n": "27",
+     "title": "Slow Down",
+     "heard": false
+    },
+    {
+     "n": "28",
+     "title": "Memphis, Tennessee",
+     "heard": false
+    },
+    {
+     "n": "29",
+     "title": "Twist And Shout (Around The Beatles)",
+     "heard": false
+    },
+    {
+     "n": "30",
+     "title": "I'm Happy Just To Dance With You",
+     "heard": false
+    },
+    {
+     "n": "31",
+     "title": "I Should Have Known Better",
+     "heard": false
+    },
+    {
+     "n": "32",
+     "title": "The Night Before",
+     "heard": false
+    },
+    {
+     "n": "33",
+     "title": "Roll Over Beethoven",
+     "heard": false
+    },
+    {
+     "n": "34",
+     "title": "I Saw Her Standing There",
+     "heard": false
+    },
+    {
+     "n": "35",
+     "title": "From Us To You (Closing)",
+     "heard": false
+    },
+    {
+     "n": "1",
+     "title": "(We were performers ... in Britain)",
+     "heard": false
+    },
+    {
+     "n": "2",
+     "title": "She Loves You (Stockholm)",
+     "heard": false
+    },
+    {
+     "n": "3",
+     "title": "Money (That's What I Want)",
+     "heard": false
+    },
+    {
+     "n": "4",
+     "title": "Twist And Shout (Stockholm)",
+     "heard": false
+    },
+    {
+     "n": "5",
+     "title": "Hold Me Tight",
+     "heard": false
+    },
+    {
+     "n": "6",
+     "title": "You Can't Do That",
+     "heard": false
+    },
+    {
+     "n": "7",
+     "title": "Eight Days A Week",
+     "heard": false
+    },
+    {
+     "n": "8",
+     "title": "A Hard Day's Night",
+     "heard": false
+    },
+    {
+     "n": "9",
+     "title": "Thank You Girl",
+     "heard": false
+    },
+    {
+     "n": "10",
+     "title": "(I think a couple of those still exist)",
+     "heard": false
+    },
+    {
+     "n": "11",
+     "title": "I Don't Need No Cigarette Boy (I)",
+     "heard": false
+    },
+    {
+     "n": "12",
+     "title": "Johnny, Johnny (I)",
+     "heard": false
+    },
+    {
+     "n": "13",
+     "title": "Guitar Jam (I)",
+     "heard": false
+    },
+    {
+     "n": "14",
+     "title": "Well, Darling (I)",
+     "heard": false
+    },
+    {
+     "n": "15",
+     "title": "Wild Cat",
+     "heard": false
+    },
+    {
+     "n": "16",
+     "title": "Johnny, Johnny (II)",
+     "heard": false
+    },
+    {
+     "n": "17",
+     "title": "The Groovin",
+     "heard": false
+    },
+    {
+     "n": "18",
+     "title": "I Don't Need No Cigarette Boy (II)",
+     "heard": false
+    },
+    {
+     "n": "19",
+     "title": "Guitar Jam (II)",
+     "heard": false
+    },
+    {
+     "n": "20",
+     "title": "Well, Darling (II)",
+     "heard": false
+    },
+    {
+     "n": "21",
+     "title": "Guitar Jam (III)",
+     "heard": false
+    },
+    {
+     "n": "22",
+     "title": "Turn The Mixers Off",
+     "heard": false
+    },
+    {
+     "n": "23",
+     "title": "That's The End",
+     "heard": false
+    },
+    {
+     "n": "24",
+     "title": "And In The End",
+     "heard": false
+    }
+   ],
+   "last_played": "2026-10-28",
+   "musicbrainz": "https://musicbrainz.org/release-group/453eb20f-1560-40e2-ab04-fb6466f5866c"
   },
   {
    "id": "rg:5f917a6b-702d-39be-bedb-9ada6118638d",
