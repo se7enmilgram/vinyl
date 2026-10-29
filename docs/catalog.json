@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated": "2026-10-28",
+ "generated": "2026-10-29",
  "count": 166,
  "albums": [
   {
@@ -5708,12 +5708,12 @@
     {
      "n": "A1",
      "title": "Intro / Sweet Jane",
-     "heard": false
+     "heard": true
     },
     {
      "n": "A2",
      "title": "Heroin",
-     "heard": false
+     "heard": true
     },
     {
      "n": "B1",
@@ -5731,7 +5731,7 @@
      "heard": false
     }
    ],
-   "last_played": null,
+   "last_played": "2026-10-29",
    "musicbrainz": "https://musicbrainz.org/release-group/d4e71ed8-a7fe-3a44-9047-317ef789fd24"
   },
   {
