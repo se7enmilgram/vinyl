@@ -84,7 +84,7 @@ async function nowPlaying() {
     const src = [].concat(st.source || []).find((x) => (x.listenurl || "").endsWith(MOUNT));
     if (!src) { box.hidden = true; return; }
     const title = (src.title || "").trim();
-    let line = "Between records", from = "", cover = "";
+    let line = title ? "Between records" : "Live from the turntable", from = "", cover = "";
     if (title && !/^(between records|unknown track)$/i.test(title)) {
       line = title;
       const [artist, song] = title.split(" - ");
