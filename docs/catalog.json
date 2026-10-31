@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated": "2026-10-29",
+ "generated": "2026-10-31",
  "count": 166,
  "albums": [
   {
@@ -8322,7 +8322,7 @@
     {
      "n": "A2",
      "title": "Because I’m Me",
-     "heard": false
+     "heard": true
     },
     {
      "n": "A3",
@@ -8332,7 +8332,7 @@
     {
      "n": "A4",
      "title": "Subways",
-     "heard": false
+     "heard": true
     },
     {
      "n": "A5",
@@ -8420,7 +8420,7 @@
      "heard": false
     }
    ],
-   "last_played": null,
+   "last_played": "2026-10-31",
    "musicbrainz": "https://musicbrainz.org/release-group/e27e2c64-8e49-43d2-8468-c3b484cf11f0"
   },
   {
