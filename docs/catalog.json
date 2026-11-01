@@ -4605,12 +4605,12 @@
     {
      "n": "B1",
      "title": "Situation",
-     "heard": false
+     "heard": true
     },
     {
      "n": "B2",
      "title": "Venus",
-     "heard": false
+     "heard": true
     },
     {
      "n": "B3",
