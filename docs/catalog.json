@@ -5970,12 +5970,12 @@
     {
      "n": "1",
      "title": "Chocolate Cake",
-     "heard": false
+     "heard": true
     },
     {
      "n": "2",
      "title": "When I Get My Check",
-     "heard": false
+     "heard": true
     },
     {
      "n": "3",
@@ -6023,7 +6023,7 @@
      "heard": false
     }
    ],
-   "last_played": null,
+   "last_played": "2026-10-31",
    "shelf": "Metal rack — newer records",
    "shelf_pos": 8.0,
    "musicbrainz": "https://musicbrainz.org/release-group/37f8e934-8e95-41ef-b73e-35eedec522a2"
