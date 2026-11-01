@@ -7269,12 +7269,12 @@
     {
      "n": "A1",
      "title": "Mustapha",
-     "heard": false
+     "heard": true
     },
     {
      "n": "A2",
      "title": "Fat Bottomed Girls",
-     "heard": false
+     "heard": true
     },
     {
      "n": "A3",
@@ -7332,7 +7332,7 @@
      "heard": false
     }
    ],
-   "last_played": null,
+   "last_played": "2026-10-31",
    "shelf": "Led Zeppelin & country shelf",
    "shelf_pos": 5.0,
    "musicbrainz": "https://musicbrainz.org/release-group/c192ea46-7377-34f0-b332-dd9810edd560"
