@@ -58,6 +58,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "70s rock shelf (in plastic sleeves)",
+   "shelf_pos": 30.0,
    "musicbrainz": "https://musicbrainz.org/release-group/9fec57ed-2bf4-3ac9-844b-6d0a67fd2910"
   },
   {
@@ -115,6 +117,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "70s rock shelf (in plastic sleeves)",
+   "shelf_pos": 10.0,
    "musicbrainz": "https://musicbrainz.org/release-group/f30734f4-333c-344c-98e9-71174cc5ebde"
   },
   {
@@ -162,6 +166,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Metal rack — newer records",
+   "shelf_pos": 2.0,
    "musicbrainz": "https://musicbrainz.org/release-group/95130ea4-73cc-38a9-8380-b5fbe2b59ac4"
   },
   {
@@ -229,6 +235,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Led Zeppelin & country shelf",
+   "shelf_pos": 35.0,
    "musicbrainz": "https://musicbrainz.org/release-group/7dedf449-ff09-3914-aed5-d7af9b5bf354"
   },
   {
@@ -291,6 +299,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Metal rack — section with the face-out cover",
+   "shelf_pos": 7.0,
    "musicbrainz": "https://musicbrainz.org/release-group/d3fa9381-05a0-4423-a1f5-92377eccc08f"
   },
   {
@@ -358,6 +368,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Easy listening, Christmas & box sets shelf",
+   "shelf_pos": 13.0,
    "musicbrainz": "https://musicbrainz.org/release-group/187d5cec-81b6-3d6d-a2c9-df5eb86b9e9a"
   },
   {
@@ -385,6 +397,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Metal rack — section with the face-out cover",
+   "shelf_pos": 5.0,
    "musicbrainz": "https://musicbrainz.org/release-group/2781e862-a085-33fe-8660-9ef5c39dd9e2"
   },
   {
@@ -442,6 +456,8 @@
     }
    ],
    "last_played": "2026-10-27",
+   "shelf": "Metal rack — newer records",
+   "shelf_pos": 17.0,
    "musicbrainz": "https://musicbrainz.org/release-group/cf3efe8c-3963-30c2-a9ba-a1b1117a5b1a"
   },
   {
@@ -499,6 +515,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Beatles & Dylan shelf (cube 6)",
+   "shelf_pos": 24.0,
    "musicbrainz": "https://musicbrainz.org/release-group/fb48b1dc-412f-36aa-8820-1023c08c46c6"
   },
   {
@@ -561,6 +579,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Beatles & Dylan shelf (cube 6)",
+   "shelf_pos": 23.0,
    "musicbrainz": "https://musicbrainz.org/release-group/2ca28746-8987-3015-b54c-75b3aa8ca1a1"
   },
   {
@@ -678,6 +698,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Metal rack — newer records",
+   "shelf_pos": 3.0,
    "musicbrainz": "https://musicbrainz.org/release-group/699bebfe-b8f8-3e76-bf4d-0597910cd14d"
   },
   {
@@ -740,6 +762,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Beatles & Dylan shelf (cube 6)",
+   "shelf_pos": 22.0,
    "musicbrainz": "https://musicbrainz.org/release-group/9c1b8072-eb1d-33d2-af8c-984d46e40902"
   },
   {
@@ -872,6 +896,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Led Zeppelin & country shelf",
+   "shelf_pos": 30.0,
    "musicbrainz": "https://musicbrainz.org/release-group/c06066c5-f153-3e81-82b8-5b4d889f60d5"
   },
   {
@@ -934,6 +960,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Metal rack — newer records",
+   "shelf_pos": 1.0,
    "musicbrainz": "https://musicbrainz.org/release-group/6d5e05f2-5e64-35bb-8600-c3a58ce23673"
   },
   {
@@ -1001,6 +1029,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Led Zeppelin & country shelf",
+   "shelf_pos": 37.0,
    "musicbrainz": "https://musicbrainz.org/release-group/418678e7-2807-3bed-a305-11b4181e533e"
   },
   {
@@ -1063,6 +1093,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Led Zeppelin & country shelf",
+   "shelf_pos": 38.0,
    "musicbrainz": "https://musicbrainz.org/release-group/412367b1-736e-3cce-8e86-6f8bc067be98"
   },
   {
@@ -1125,6 +1157,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Led Zeppelin & country shelf",
+   "shelf_pos": 21.0,
    "musicbrainz": "https://musicbrainz.org/release-group/70b1a098-51b5-3647-939e-84662aa1bf59"
   },
   {
@@ -1232,6 +1266,8 @@
     }
    ],
    "last_played": "2026-10-28",
+   "shelf": "Metal rack — section with the face-out cover",
+   "shelf_pos": 9.0,
    "musicbrainz": "https://musicbrainz.org/release-group/f718b53e-5dda-4dfc-bfb3-9bbe1cb97bbd"
   },
   {
@@ -1284,6 +1320,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "70s rock shelf (in plastic sleeves)",
+   "shelf_pos": 2.0,
    "musicbrainz": "https://musicbrainz.org/release-group/a8187372-cdb3-3988-8923-619923f2d246"
   },
   {
@@ -1411,6 +1449,8 @@
     }
    ],
    "last_played": "2026-10-27",
+   "shelf": "Metal rack — newer records",
+   "shelf_pos": 14.0,
    "musicbrainz": "https://musicbrainz.org/release-group/abbeeaed-40dc-32ae-9c9f-2dfcc8eddfc3"
   },
   {
@@ -1488,6 +1528,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Easy listening, Christmas & box sets shelf",
+   "shelf_pos": 15.0,
    "musicbrainz": "https://musicbrainz.org/release-group/18da723e-aaac-3580-8076-f12dbe15081d"
   },
   {
@@ -1555,6 +1597,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Easy listening, Christmas & box sets shelf",
+   "shelf_pos": 14.0,
    "musicbrainz": "https://musicbrainz.org/release-group/ef3bb050-a737-4736-8648-97583d888158"
   },
   {
@@ -1617,6 +1661,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Easy listening, Christmas & box sets shelf",
+   "shelf_pos": 12.0,
    "musicbrainz": "https://musicbrainz.org/release-group/e6d2293c-5d19-40c7-b21a-3eacbbfbb705"
   },
   {
@@ -1694,6 +1740,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "70s rock shelf (in plastic sleeves)",
+   "shelf_pos": 17.0,
    "musicbrainz": "https://musicbrainz.org/release-group/75e8d0ba-65bf-4efa-ba3f-88ff2b13c405"
   },
   {
@@ -1806,6 +1854,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Led Zeppelin & country shelf",
+   "shelf_pos": 39.0,
    "musicbrainz": "https://musicbrainz.org/release-group/0411d11f-d310-3425-8f46-a16243d15763"
   },
   {
@@ -1873,6 +1923,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Led Zeppelin & country shelf",
+   "shelf_pos": 34.0,
    "musicbrainz": "https://musicbrainz.org/release-group/5495ff00-06c2-3361-9284-ed729209dffc"
   },
   {
@@ -1935,6 +1987,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Metal rack — newer records",
+   "shelf_pos": 12.0,
    "musicbrainz": "https://musicbrainz.org/release-group/3983e82c-8989-4aea-bf24-800db810d663"
   },
   {
@@ -2002,6 +2056,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Led Zeppelin & country shelf",
+   "shelf_pos": 33.0,
    "musicbrainz": "https://musicbrainz.org/release-group/95cc2c8a-1e35-30ff-a8e2-3f07bc02c134"
   },
   {
@@ -2059,6 +2115,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "70s rock shelf (in plastic sleeves)",
+   "shelf_pos": 5.0,
    "musicbrainz": "https://musicbrainz.org/release-group/9a9c1df8-ad5f-4606-8dc7-eb4ada495ef6"
   },
   {
@@ -2126,6 +2184,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Metal rack — section with the face-out cover",
+   "shelf_pos": 8.0,
    "musicbrainz": "https://musicbrainz.org/release-group/6c9ae3dd-32ad-472c-96be-69d0a3536261"
   },
   {
@@ -2198,6 +2258,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Metal rack — newer records",
+   "shelf_pos": 10.0,
    "musicbrainz": "https://musicbrainz.org/release-group/ab4706d3-5e4c-4f87-a373-bf8e6de1931f"
   },
   {
@@ -2255,6 +2317,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Metal rack — section with the face-out cover",
+   "shelf_pos": 4.0,
    "musicbrainz": "https://musicbrainz.org/release-group/ee122b2e-bd56-4ef9-a884-b5b2548cd8a5"
   },
   {
@@ -2317,6 +2381,8 @@
     }
    ],
    "last_played": "2026-10-28",
+   "shelf": null,
+   "shelf_pos": null,
    "musicbrainz": "https://musicbrainz.org/release-group/e13af55a-84e8-31d5-a4cd-f5681616235b"
   },
   {
@@ -2479,6 +2545,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Metal rack — newer records",
+   "shelf_pos": 11.0,
    "musicbrainz": "https://musicbrainz.org/release-group/f58199d9-1c73-4922-900c-8e258ee022c7"
   },
   {
@@ -2521,6 +2589,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Beatles & Dylan shelf (cube 6)",
+   "shelf_pos": 31.0,
    "musicbrainz": "https://musicbrainz.org/release-group/b0866510-7c36-32ed-a03a-f71798ece1ed"
   },
   {
@@ -2578,6 +2648,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Beatles & Dylan shelf (cube 6)",
+   "shelf_pos": 26.0,
    "musicbrainz": "https://musicbrainz.org/release-group/b6e1a652-1378-4e67-9104-04e458e7d2a4"
   },
   {
@@ -2675,6 +2747,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Beatles & Dylan shelf (cube 6)",
+   "shelf_pos": 21.0,
    "musicbrainz": "https://musicbrainz.org/release-group/80df0f1b-4ce7-348a-aa1b-0d31ebff111a"
   },
   {
@@ -2742,6 +2816,8 @@
     }
    ],
    "last_played": "2026-10-27",
+   "shelf": "Metal rack — section with the face-out cover",
+   "shelf_pos": 12.0,
    "musicbrainz": "https://musicbrainz.org/release-group/6b5d9bf1-f496-34b5-9488-7df2533d6208"
   },
   {
@@ -2809,6 +2885,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Metal rack — section with the face-out cover",
+   "shelf_pos": 11.0,
    "musicbrainz": "https://musicbrainz.org/release-group/416bb5e5-c7d1-3977-8fd7-7c9daf6c2be6"
   },
   {
@@ -2851,6 +2929,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "70s rock shelf (in plastic sleeves)",
+   "shelf_pos": 21.0,
    "musicbrainz": "https://musicbrainz.org/release-group/7601dfa7-ecb9-33f6-a004-1a12fe72a1f2"
   },
   {
@@ -2913,6 +2993,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "70s rock shelf (in plastic sleeves)",
+   "shelf_pos": 24.0,
    "musicbrainz": "https://musicbrainz.org/release-group/1833c951-a01f-3b37-9b37-15e180e69bc8"
   },
   {
@@ -2985,6 +3067,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Easy listening, Christmas & box sets shelf",
+   "shelf_pos": 4.0,
    "musicbrainz": "https://musicbrainz.org/release-group/32bedf9b-b7cc-3dd7-8836-b2a913245c28"
   },
   {
@@ -3017,6 +3101,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Easy listening, Christmas & box sets shelf",
+   "shelf_pos": 8.0,
    "musicbrainz": "https://musicbrainz.org/release-group/e6cf268d-7212-48aa-a9fb-9251ee768a32"
   },
   {
@@ -3089,6 +3175,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Easy listening, Christmas & box sets shelf",
+   "shelf_pos": 9.0,
    "musicbrainz": "https://musicbrainz.org/release-group/f3f67720-4dc2-3705-9a02-6ebdb447d2cb"
   },
   {
@@ -3161,6 +3249,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Led Zeppelin & country shelf",
+   "shelf_pos": 26.0,
    "musicbrainz": "https://musicbrainz.org/release-group/723f1ee5-790b-4e2e-9252-2db26b81c7e9"
   },
   {
@@ -3203,6 +3293,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Beatles & Dylan shelf (cube 6)",
+   "shelf_pos": 33.0,
    "musicbrainz": "https://musicbrainz.org/release-group/36febd65-206c-3f98-b6d5-f790ef8e313a"
   },
   {
@@ -3280,6 +3372,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Metal rack — newer records",
+   "shelf_pos": 9.0,
    "musicbrainz": "https://musicbrainz.org/release-group/3db65123-ad4f-42b9-b789-ad86740fb326"
   },
   {
@@ -3412,6 +3506,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Led Zeppelin & country shelf",
+   "shelf_pos": 24.0,
    "musicbrainz": "https://musicbrainz.org/release-group/7f88d56f-b24d-4db6-a5cc-3660a0e54757"
   },
   {
@@ -3484,6 +3580,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Easy listening, Christmas & box sets shelf",
+   "shelf_pos": 6.0,
    "musicbrainz": "https://musicbrainz.org/release-group/00ad370a-6a17-3036-a852-58b372a455b2"
   },
   {
@@ -3546,6 +3644,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "70s rock shelf (in plastic sleeves)",
+   "shelf_pos": 18.0,
    "musicbrainz": "https://musicbrainz.org/release-group/2ece6f20-db6e-39b3-a370-28e6011cddcf"
   },
   {
@@ -3618,6 +3718,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Easy listening, Christmas & box sets shelf",
+   "shelf_pos": 5.0,
    "musicbrainz": "https://musicbrainz.org/release-group/e4948903-1c05-419e-b110-de87fa09b0d1"
   },
   {
@@ -3675,6 +3777,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "70s rock shelf (in plastic sleeves)",
+   "shelf_pos": 11.0,
    "musicbrainz": "https://musicbrainz.org/release-group/cb02a4a7-3ba3-330a-a61b-c3f73ca6e017"
   },
   {
@@ -3747,6 +3851,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Easy listening, Christmas & box sets shelf",
+   "shelf_pos": 20.0,
    "musicbrainz": "https://musicbrainz.org/release-group/2693a184-c0ef-4a7c-b0ef-d97317e520f4"
   },
   {
@@ -3819,6 +3925,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Easy listening, Christmas & box sets shelf",
+   "shelf_pos": 7.0,
    "musicbrainz": "https://musicbrainz.org/release-group/d43258b0-7f86-40f7-aeee-83b8ae4a0b3a"
   },
   {
@@ -3871,6 +3979,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "70s rock shelf (in plastic sleeves)",
+   "shelf_pos": 1.0,
    "musicbrainz": "https://musicbrainz.org/release-group/ac41c72a-7b6a-3822-9384-d4972123490f"
   },
   {
@@ -3938,6 +4048,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Metal rack — section with the face-out cover",
+   "shelf_pos": 10.0,
    "musicbrainz": "https://musicbrainz.org/release-group/a3a2756d-93b4-37c6-8b82-513070ef58d6"
   },
   {
@@ -4015,6 +4127,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "70s rock shelf (in plastic sleeves)",
+   "shelf_pos": 31.0,
    "musicbrainz": "https://musicbrainz.org/release-group/9759904a-6c67-3979-9f96-3788963f7f37"
   },
   {
@@ -4077,6 +4191,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Beatles & Dylan shelf (cube 6)",
+   "shelf_pos": 25.0,
    "musicbrainz": "https://musicbrainz.org/release-group/8f875bf3-65b4-342f-86a6-61b5bc7fdf94"
   },
   {
@@ -4124,6 +4240,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "70s rock shelf (in plastic sleeves)",
+   "shelf_pos": 22.0,
    "musicbrainz": "https://musicbrainz.org/release-group/cfa2ef64-93b2-3c18-96b8-8b446d5262dc"
   },
   {
@@ -4191,6 +4309,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Beatles & Dylan shelf (cube 6)",
+   "shelf_pos": 34.0,
    "musicbrainz": "https://musicbrainz.org/release-group/e6440cd2-5e8e-367d-bc49-cc042b5ef524"
   },
   {
@@ -4238,6 +4358,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Metal rack — section with the face-out cover",
+   "shelf_pos": 14.0,
    "musicbrainz": "https://musicbrainz.org/release-group/6c61d88e-4521-3c76-b30c-949d9dce9ea4"
   },
   {
@@ -4295,6 +4417,8 @@
     }
    ],
    "last_played": "2026-10-27",
+   "shelf": "Metal rack — newer records",
+   "shelf_pos": 16.0,
    "musicbrainz": "https://musicbrainz.org/release-group/a0da3cf2-d87a-374d-aa9a-07630822cea3"
   },
   {
@@ -4367,6 +4491,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Easy listening, Christmas & box sets shelf",
+   "shelf_pos": 11.0,
    "musicbrainz": "https://musicbrainz.org/release-group/9876b182-fc23-4f19-ba29-0732aeca4e5d"
   },
   {
@@ -4439,6 +4565,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Led Zeppelin & country shelf",
+   "shelf_pos": 40.0,
    "musicbrainz": "https://musicbrainz.org/release-group/39e2e75e-03b5-3428-a856-84c4c2c639a4"
   },
   {
@@ -4496,6 +4624,8 @@
     }
    ],
    "last_played": "2026-10-27",
+   "shelf": "Metal rack — section with the face-out cover",
+   "shelf_pos": 15.0,
    "musicbrainz": "https://musicbrainz.org/release-group/cddab6fa-4c6a-404e-a78f-2e996fe53d40"
   },
   {
@@ -4568,6 +4698,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Led Zeppelin & country shelf",
+   "shelf_pos": 15.0,
    "musicbrainz": "https://musicbrainz.org/release-group/5bf1dbe0-0d63-36ae-a3bb-8bd6172ce54b"
   },
   {
@@ -4705,6 +4837,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Led Zeppelin & country shelf",
+   "shelf_pos": 29.0,
    "musicbrainz": "https://musicbrainz.org/release-group/c9bdc207-1ba2-3f76-9a9f-4e77ffd82d92"
   },
   {
@@ -4777,6 +4911,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Led Zeppelin & country shelf",
+   "shelf_pos": 27.0,
    "musicbrainz": "https://musicbrainz.org/release-group/a9c587b2-ce61-4fe3-9252-86c0c0367484"
   },
   {
@@ -4839,6 +4975,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Beatles & Dylan shelf (cube 6)",
+   "shelf_pos": 32.0,
    "musicbrainz": "https://musicbrainz.org/release-group/77460a4d-7800-3eac-9446-ba6fde5a8553"
   },
   {
@@ -4901,6 +5039,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "70s rock shelf (in plastic sleeves)",
+   "shelf_pos": 25.0,
    "musicbrainz": "https://musicbrainz.org/release-group/89ed7ed6-4292-3892-b0de-c9c27005c08d"
   },
   {
@@ -4973,6 +5113,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Led Zeppelin & country shelf",
+   "shelf_pos": 31.0,
    "musicbrainz": "https://musicbrainz.org/release-group/dac553a2-f49d-3b3a-b5ad-0164c0a58299"
   },
   {
@@ -5035,6 +5177,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Easy listening, Christmas & box sets shelf",
+   "shelf_pos": 17.0,
    "musicbrainz": "https://musicbrainz.org/release-group/d88a20fe-80ea-33b0-a246-0413b77f4167"
   },
   {
@@ -5097,6 +5241,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Beatles & Dylan shelf (cube 6)",
+   "shelf_pos": 27.0,
    "musicbrainz": "https://musicbrainz.org/release-group/a995c966-a779-4b73-9000-5aebc1f28f73"
   },
   {
@@ -5159,6 +5305,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Led Zeppelin & country shelf",
+   "shelf_pos": 6.0,
    "musicbrainz": "https://musicbrainz.org/release-group/53f80f76-f8af-3558-bfd5-e7221e055c75"
   },
   {
@@ -5206,6 +5354,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Led Zeppelin & country shelf",
+   "shelf_pos": 8.0,
    "musicbrainz": "https://musicbrainz.org/release-group/42f8acce-90fc-3471-a4cd-ace1ab816276"
   },
   {
@@ -5263,6 +5413,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Led Zeppelin & country shelf",
+   "shelf_pos": 13.0,
    "musicbrainz": "https://musicbrainz.org/release-group/ce0cca72-d865-30b9-9667-47241049fd18"
   },
   {
@@ -5310,6 +5462,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Led Zeppelin & country shelf",
+   "shelf_pos": 9.0,
    "musicbrainz": "https://musicbrainz.org/release-group/2fbf4c3e-09e5-38f0-ae59-fbdc9ea16b87"
   },
   {
@@ -5362,6 +5516,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Led Zeppelin & country shelf",
+   "shelf_pos": 7.0,
    "musicbrainz": "https://musicbrainz.org/release-group/61de0438-6c34-363f-904e-b4d6267c79b9"
   },
   {
@@ -5474,6 +5630,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Led Zeppelin & country shelf",
+   "shelf_pos": 22.0,
    "musicbrainz": "https://musicbrainz.org/release-group/7ee37114-7e03-4533-becb-f583d2dc2f5e"
   },
   {
@@ -5536,6 +5694,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "70s rock shelf (in plastic sleeves)",
+   "shelf_pos": 23.0,
    "musicbrainz": "https://musicbrainz.org/release-group/75874ccb-ab3e-3f58-bb11-096ec50a4711"
   },
   {
@@ -5633,6 +5793,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Metal rack — section with the face-out cover",
+   "shelf_pos": 1.0,
    "musicbrainz": "https://musicbrainz.org/release-group/3a84d6fc-75d4-35aa-9288-51651acf2276"
   },
   {
@@ -5695,6 +5857,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "70s rock shelf (in plastic sleeves)",
+   "shelf_pos": 3.0,
    "musicbrainz": "https://musicbrainz.org/release-group/2efe5386-c16f-3d7c-b908-dcfde4474284"
   },
   {
@@ -5732,6 +5896,8 @@
     }
    ],
    "last_played": "2026-10-29",
+   "shelf": "Beatles & Dylan shelf (cube 6)",
+   "shelf_pos": 35.0,
    "musicbrainz": "https://musicbrainz.org/release-group/d4e71ed8-a7fe-3a44-9047-317ef789fd24"
   },
   {
@@ -5789,6 +5955,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Easy listening, Christmas & box sets shelf",
+   "shelf_pos": 16.0,
    "musicbrainz": "https://musicbrainz.org/release-group/261b884c-b560-4cb1-bc3c-de192a3d6f69"
   },
   {
@@ -5856,6 +6024,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Metal rack — newer records",
+   "shelf_pos": 8.0,
    "musicbrainz": "https://musicbrainz.org/release-group/37f8e934-8e95-41ef-b73e-35eedec522a2"
   },
   {
@@ -5918,6 +6088,8 @@
     }
    ],
    "last_played": "2026-10-27",
+   "shelf": "Metal rack — newer records",
+   "shelf_pos": 13.0,
    "musicbrainz": "https://musicbrainz.org/release-group/e52282d9-3b38-420e-bf3c-9d911ffde3e1"
   },
   {
@@ -5980,6 +6152,8 @@
     }
    ],
    "last_played": "2026-10-27",
+   "shelf": null,
+   "shelf_pos": null,
    "musicbrainz": "https://musicbrainz.org/release-group/f51bb1a7-446f-4319-9140-03c4d06fd4a0"
   },
   {
@@ -6052,6 +6226,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Led Zeppelin & country shelf",
+   "shelf_pos": 25.0,
    "musicbrainz": "https://musicbrainz.org/release-group/81e9ea0b-e334-35b3-9d10-f9a5f8bea5ae"
   },
   {
@@ -6124,6 +6300,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Easy listening, Christmas & box sets shelf",
+   "shelf_pos": 10.0,
    "musicbrainz": "https://musicbrainz.org/release-group/8adbf736-9f1e-4673-b683-81818f007012"
   },
   {
@@ -6186,6 +6364,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "70s rock shelf (in plastic sleeves)",
+   "shelf_pos": 19.0,
    "musicbrainz": "https://musicbrainz.org/release-group/c9bff180-434f-3c93-aba5-ff579e3976aa"
   },
   {
@@ -6228,6 +6408,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Led Zeppelin & country shelf",
+   "shelf_pos": 19.0,
    "musicbrainz": "https://musicbrainz.org/release-group/18d51564-cdad-48ee-93d6-2dd187eab890"
   },
   {
@@ -6290,6 +6472,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Led Zeppelin & country shelf",
+   "shelf_pos": 36.0,
    "musicbrainz": "https://musicbrainz.org/release-group/eb38ac21-b7a8-3c84-b69a-120b3e0d4356"
   },
   {
@@ -6347,6 +6531,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "70s rock shelf (in plastic sleeves)",
+   "shelf_pos": 26.0,
    "musicbrainz": "https://musicbrainz.org/release-group/f32fab67-77dd-3937-addc-9062e28e4c37"
   },
   {
@@ -6429,6 +6615,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "70s rock shelf (in plastic sleeves)",
+   "shelf_pos": 28.0,
    "musicbrainz": "https://musicbrainz.org/release-group/22fc8d45-6802-46f8-8a78-6ae823a9ed92"
   },
   {
@@ -6521,6 +6709,8 @@
     }
    ],
    "last_played": "2026-10-27",
+   "shelf": "Metal rack — newer records",
+   "shelf_pos": 15.0,
    "musicbrainz": "https://musicbrainz.org/release-group/158c4cb7-cc81-3778-991d-5654d738e50a"
   },
   {
@@ -6578,6 +6768,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "70s rock shelf (in plastic sleeves)",
+   "shelf_pos": 27.0,
    "musicbrainz": "https://musicbrainz.org/release-group/bd6d88d5-c959-38aa-92e2-cbffd469a049"
   },
   {
@@ -6640,6 +6832,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "70s rock shelf (in plastic sleeves)",
+   "shelf_pos": 7.0,
    "musicbrainz": "https://musicbrainz.org/release-group/17c86f9c-f12d-4c45-a9e7-cd7331fb0602"
   },
   {
@@ -6697,6 +6891,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Beatles & Dylan shelf (cube 6)",
+   "shelf_pos": 28.0,
    "musicbrainz": "https://musicbrainz.org/release-group/6a203ff2-595a-3215-93e8-4d10f49dff5f"
   },
   {
@@ -6759,6 +6955,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Led Zeppelin & country shelf",
+   "shelf_pos": 32.0,
    "musicbrainz": "https://musicbrainz.org/release-group/b25419cf-71bf-3a54-8cd4-2161c61056a0"
   },
   {
@@ -6821,6 +7019,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "70s rock shelf (in plastic sleeves)",
+   "shelf_pos": 4.0,
    "musicbrainz": "https://musicbrainz.org/release-group/a7b29384-fc3f-3e12-80a7-d01173004dde"
   },
   {
@@ -6848,6 +7048,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Metal rack — newer records",
+   "shelf_pos": 4.0,
    "musicbrainz": "https://musicbrainz.org/release-group/99cc4789-b12d-354d-adf5-1dc8e9130f6d"
   },
   {
@@ -6870,6 +7072,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Metal rack — section with the face-out cover",
+   "shelf_pos": 2.0,
    "musicbrainz": "https://musicbrainz.org/release-group/fa40eee0-5e14-35e5-9454-47bfb6377320"
   },
   {
@@ -6932,6 +7136,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "70s rock shelf (in plastic sleeves)",
+   "shelf_pos": 16.0,
    "musicbrainz": "https://musicbrainz.org/release-group/d2f108a7-0614-35e8-922f-4d8d5ebc5d93"
   },
   {
@@ -6979,6 +7185,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "70s rock shelf (in plastic sleeves)",
+   "shelf_pos": 12.0,
    "musicbrainz": "https://musicbrainz.org/release-group/63b88b90-71f4-3ca9-86a4-3de315734e13"
   },
   {
@@ -7046,6 +7254,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Led Zeppelin & country shelf",
+   "shelf_pos": 28.0,
    "musicbrainz": "https://musicbrainz.org/release-group/9532683a-233c-3ea7-a467-f61e0f67f3a5"
   },
   {
@@ -7123,6 +7333,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Led Zeppelin & country shelf",
+   "shelf_pos": 5.0,
    "musicbrainz": "https://musicbrainz.org/release-group/c192ea46-7377-34f0-b332-dd9810edd560"
   },
   {
@@ -7185,6 +7397,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Led Zeppelin & country shelf",
+   "shelf_pos": 4.0,
    "musicbrainz": "https://musicbrainz.org/release-group/75702ddf-a46c-3cac-bace-0a466eb3c37c"
   },
   {
@@ -7247,6 +7461,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Led Zeppelin & country shelf",
+   "shelf_pos": 41.0,
    "musicbrainz": "https://musicbrainz.org/release-group/cfa15015-50a8-31e3-b559-bb6a75367025"
   },
   {
@@ -7304,6 +7520,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "70s rock shelf (in plastic sleeves)",
+   "shelf_pos": 13.0,
    "musicbrainz": "https://musicbrainz.org/release-group/4993edc8-cc25-3e7d-9ec5-51280c337fec"
   },
   {
@@ -7366,6 +7584,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Easy listening, Christmas & box sets shelf",
+   "shelf_pos": 2.0,
    "musicbrainz": "https://musicbrainz.org/release-group/ea8ee7e6-297a-33ab-bbee-803c6f4785e4"
   },
   {
@@ -7413,6 +7633,8 @@
     }
    ],
    "last_played": "2026-10-28",
+   "shelf": null,
+   "shelf_pos": null,
    "musicbrainz": "https://musicbrainz.org/release-group/63a36b5d-ab1c-499c-b236-f9015b35e2e4"
   },
   {
@@ -7480,6 +7702,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Led Zeppelin & country shelf",
+   "shelf_pos": 14.0,
    "musicbrainz": "https://musicbrainz.org/release-group/499a8142-b8a7-3ab1-a3db-641a41860afb"
   },
   {
@@ -7527,6 +7751,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Metal rack — newer records",
+   "shelf_pos": 5.0,
    "musicbrainz": "https://musicbrainz.org/release-group/8588c5a5-b491-37a4-8d51-2227346a072e"
   },
   {
@@ -7599,6 +7825,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Beatles & Dylan shelf (cube 6)",
+   "shelf_pos": 36.0,
    "musicbrainz": "https://musicbrainz.org/release-group/03cf0b3d-48f1-3b04-a3be-5e4d5b7dcae2"
   },
   {
@@ -7671,6 +7899,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Beatles & Dylan shelf (cube 6)",
+   "shelf_pos": 29.0,
    "musicbrainz": "https://musicbrainz.org/release-group/f1a184f6-28ef-310c-becb-59ebb6e3b3bd"
   },
   {
@@ -7743,6 +7973,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Beatles & Dylan shelf (cube 6)",
+   "shelf_pos": 30.0,
    "musicbrainz": "https://musicbrainz.org/release-group/1e47867e-e62e-3638-a90c-4f6e111d8834"
   },
   {
@@ -7820,6 +8052,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Easy listening, Christmas & box sets shelf",
+   "shelf_pos": 18.0,
    "musicbrainz": "https://musicbrainz.org/release-group/05ced530-5077-3a59-9c27-e2d9fe497598"
   },
   {
@@ -7872,6 +8106,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Led Zeppelin & country shelf",
+   "shelf_pos": 2.0,
    "musicbrainz": "https://musicbrainz.org/release-group/bc33142b-e681-34bf-9d8f-13bfca1325fd"
   },
   {
@@ -7939,6 +8175,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "70s rock shelf (in plastic sleeves)",
+   "shelf_pos": 29.0,
    "musicbrainz": "https://musicbrainz.org/release-group/efaf6489-dcd2-3b63-91a3-7b71c9d1f062"
   },
   {
@@ -8001,6 +8239,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "70s rock shelf (in plastic sleeves)",
+   "shelf_pos": 20.0,
    "musicbrainz": "https://musicbrainz.org/release-group/bb46777f-f2ab-347f-abc1-1f9cb1903882"
   },
   {
@@ -8058,6 +8298,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "70s rock shelf (in plastic sleeves)",
+   "shelf_pos": 14.0,
    "musicbrainz": "https://musicbrainz.org/release-group/422b969e-81f1-39ab-af7a-e1e9d07a7935"
   },
   {
@@ -8120,6 +8362,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Led Zeppelin & country shelf",
+   "shelf_pos": 16.0,
    "musicbrainz": "https://musicbrainz.org/release-group/0b1189ad-0bdf-34bc-89e4-ff05133ec51b"
   },
   {
@@ -8202,6 +8446,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Led Zeppelin & country shelf",
+   "shelf_pos": 42.0,
    "musicbrainz": "https://musicbrainz.org/release-group/fcbee4c6-70fb-3347-9497-0c67a39885fd"
   },
   {
@@ -8304,6 +8550,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Metal rack — newer records",
+   "shelf_pos": 6.0,
    "musicbrainz": "https://musicbrainz.org/release-group/28438e4f-3710-459f-a332-a1eba9dd1f26"
   },
   {
@@ -8421,6 +8669,8 @@
     }
    ],
    "last_played": "2026-10-31",
+   "shelf": "Metal rack — section with the face-out cover",
+   "shelf_pos": 13.0,
    "musicbrainz": "https://musicbrainz.org/release-group/e27e2c64-8e49-43d2-8468-c3b484cf11f0"
   },
   {
@@ -8558,6 +8808,8 @@
     }
    ],
    "last_played": "2026-10-28",
+   "shelf": null,
+   "shelf_pos": null,
    "musicbrainz": "https://musicbrainz.org/release-group/ad5a6f0f-3444-4ebd-8a98-ce6dfb1bfabe"
   },
   {
@@ -8635,6 +8887,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Beatles & Dylan shelf (cube 6)",
+   "shelf_pos": 15.0,
    "musicbrainz": "https://musicbrainz.org/release-group/06281c4d-112d-33b0-a25b-df63b420eae7"
   },
   {
@@ -8702,6 +8956,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Beatles & Dylan shelf (cube 6)",
+   "shelf_pos": 8.0,
    "musicbrainz": "https://musicbrainz.org/release-group/451e7aa4-a782-3979-9aa0-98c03a246fe9"
   },
   {
@@ -8774,6 +9030,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Beatles & Dylan shelf (cube 6)",
+   "shelf_pos": 12.0,
    "musicbrainz": "https://musicbrainz.org/release-group/0d44e1cb-c6e0-3453-8b68-4d2082f05421"
   },
   {
@@ -8856,6 +9114,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Beatles & Dylan shelf (cube 6)",
+   "shelf_pos": 11.0,
    "musicbrainz": "https://musicbrainz.org/release-group/72d15666-99a7-321e-b1f3-a3f8c09dff9f"
   },
   {
@@ -8923,6 +9183,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Beatles & Dylan shelf (cube 6)",
+   "shelf_pos": 10.0,
    "musicbrainz": "https://musicbrainz.org/release-group/0a4d1024-3463-3c74-8500-ea011bd5d523"
   },
   {
@@ -8990,6 +9252,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Beatles & Dylan shelf (cube 6)",
+   "shelf_pos": 14.0,
    "musicbrainz": "https://musicbrainz.org/release-group/6e514645-fbee-34ac-97e0-c2120a4a5644"
   },
   {
@@ -9067,6 +9331,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Beatles & Dylan shelf (cube 6)",
+   "shelf_pos": 17.0,
    "musicbrainz": "https://musicbrainz.org/release-group/9f7a4c28-8fa2-3113-929c-c47a9f7982c3"
   },
   {
@@ -9229,6 +9495,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Beatles & Dylan shelf (cube 6)",
+   "shelf_pos": 19.0,
    "musicbrainz": "https://musicbrainz.org/release-group/055be730-dcad-31bf-b550-45ba9c202aa3"
   },
   {
@@ -9326,6 +9594,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Beatles & Dylan shelf (cube 6)",
+   "shelf_pos": 13.0,
    "musicbrainz": "https://musicbrainz.org/release-group/9162580e-5df4-32de-80cc-f45a8d8a9b1d"
   },
   {
@@ -9388,6 +9658,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Beatles & Dylan shelf (cube 6)",
+   "shelf_pos": 9.0,
    "musicbrainz": "https://musicbrainz.org/release-group/4a05547f-0eb3-3eba-9e01-a9d440d4d041"
   },
   {
@@ -9460,6 +9732,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Beatles & Dylan shelf (cube 6)",
+   "shelf_pos": 7.0,
    "musicbrainz": "https://musicbrainz.org/release-group/bff544a7-56e0-3ed6-9e0f-3b676cca9111"
   },
   {
@@ -9602,6 +9876,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Beatles & Dylan shelf (cube 6)",
+   "shelf_pos": 20.0,
    "musicbrainz": "https://musicbrainz.org/release-group/5bb120e2-fe76-33cc-a4bb-8f56f2fd3d67"
   },
   {
@@ -9754,6 +10030,8 @@
     }
    ],
    "last_played": "2026-10-28",
+   "shelf": "Beatles & Dylan shelf (cube 6)",
+   "shelf_pos": 16.0,
    "musicbrainz": "https://musicbrainz.org/release-group/f2e0599e-222b-37a5-8544-2f68ce65fd66"
   },
   {
@@ -9901,6 +10179,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Beatles & Dylan shelf (cube 6)",
+   "shelf_pos": 18.0,
    "musicbrainz": "https://musicbrainz.org/release-group/1d9963fc-5aeb-4bc2-864a-26de382089f4"
   },
   {
@@ -10038,6 +10318,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Beatles & Dylan shelf (cube 6)",
+   "shelf_pos": 6.0,
    "musicbrainz": "https://musicbrainz.org/release-group/6846a427-d30d-358e-a11d-c33b9f51bbcf"
   },
   {
@@ -10135,6 +10417,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Beatles & Dylan shelf (cube 6)",
+   "shelf_pos": 1.0,
    "musicbrainz": "https://musicbrainz.org/release-group/e10467b1-2a90-3923-aed6-128da4f1a8ea"
   },
   {
@@ -10212,6 +10496,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Beatles & Dylan shelf (cube 6)",
+   "shelf_pos": 2.0,
    "musicbrainz": "https://musicbrainz.org/release-group/45f50e3c-a9ef-4455-a5c5-355677ae3845"
   },
   {
@@ -10294,6 +10580,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Beatles & Dylan shelf (cube 6)",
+   "shelf_pos": 3.0,
    "musicbrainz": "https://musicbrainz.org/release-group/4a7cdbe6-8f91-48a9-8456-f95d593c83aa"
   },
   {
@@ -10376,6 +10664,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Beatles & Dylan shelf (cube 6)",
+   "shelf_pos": 4.0,
    "musicbrainz": "https://musicbrainz.org/release-group/2b07f108-6fc2-466e-a610-a79002aab1cc"
   },
   {
@@ -10458,6 +10748,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Beatles & Dylan shelf (cube 6)",
+   "shelf_pos": 5.0,
    "musicbrainz": "https://musicbrainz.org/release-group/38bb6153-0263-48de-af21-11a1a8479508"
   },
   {
@@ -10505,6 +10797,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Led Zeppelin & country shelf",
+   "shelf_pos": 3.0,
    "musicbrainz": "https://musicbrainz.org/release-group/5f917a6b-702d-39be-bedb-9ada6118638d"
   },
   {
@@ -10587,6 +10881,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Metal rack — newer records",
+   "shelf_pos": 7.0,
    "musicbrainz": "https://musicbrainz.org/release-group/873aea21-603e-49d2-9b18-328ae623a671"
   },
   {
@@ -10644,6 +10940,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Easy listening, Christmas & box sets shelf",
+   "shelf_pos": 1.0,
    "musicbrainz": "https://musicbrainz.org/release-group/70a3b013-4dd3-3868-9380-30ebd3cf958a"
   },
   {
@@ -10706,6 +11004,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Easy listening, Christmas & box sets shelf",
+   "shelf_pos": 3.0,
    "musicbrainz": "https://musicbrainz.org/release-group/605124dd-0f2a-382b-a8ba-720658c1fe45"
   },
   {
@@ -10758,6 +11058,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "70s rock shelf (in plastic sleeves)",
+   "shelf_pos": 15.0,
    "musicbrainz": "https://musicbrainz.org/release-group/2fc1b956-f452-3eaa-a7b5-306c3f5d974f"
   },
   {
@@ -10960,6 +11262,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Easy listening, Christmas & box sets shelf",
+   "shelf_pos": 19.0,
    "musicbrainz": "https://musicbrainz.org/release-group/0ec57ce0-987b-3ea4-b3de-ba1db6488b4b"
   },
   {
@@ -11037,6 +11341,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Led Zeppelin & country shelf",
+   "shelf_pos": 23.0,
    "musicbrainz": "https://musicbrainz.org/release-group/980bdc5e-01eb-4e82-8bae-71849e2f7c28"
   },
   {
@@ -11109,6 +11415,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Led Zeppelin & country shelf",
+   "shelf_pos": 11.0,
    "musicbrainz": "https://musicbrainz.org/release-group/3be81f5e-9bdd-303a-b9bf-f8eb2059ef9f"
   },
   {
@@ -11166,6 +11474,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "70s rock shelf (in plastic sleeves)",
+   "shelf_pos": 9.0,
    "musicbrainz": "https://musicbrainz.org/release-group/784c0edd-0f37-33a2-9ca5-dff87b4f999c"
   },
   {
@@ -11228,6 +11538,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Led Zeppelin & country shelf",
+   "shelf_pos": 10.0,
    "musicbrainz": "https://musicbrainz.org/release-group/b44bc358-a28f-3a1f-b07e-604910f12d37"
   },
   {
@@ -11290,6 +11602,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Led Zeppelin & country shelf",
+   "shelf_pos": 1.0,
    "musicbrainz": "https://musicbrainz.org/release-group/ab653f59-f7a2-3278-83e4-244530175b26"
   },
   {
@@ -11357,6 +11671,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Metal rack — section with the face-out cover",
+   "shelf_pos": 3.0,
    "musicbrainz": "https://musicbrainz.org/release-group/43a0e8b5-6059-397f-81e6-b8df5a648496"
   },
   {
@@ -11414,6 +11730,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Led Zeppelin & country shelf",
+   "shelf_pos": 12.0,
    "musicbrainz": "https://musicbrainz.org/release-group/36338d76-f764-32fb-b11b-4ea68588865a"
   },
   {
@@ -11526,6 +11844,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "70s rock shelf (in plastic sleeves)",
+   "shelf_pos": 5.5,
    "musicbrainz": "https://musicbrainz.org/release-group/65f493da-825e-3c4d-b012-3a4177c7f4ac"
   },
   {
@@ -11618,6 +11938,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Metal rack — section with the face-out cover",
+   "shelf_pos": 6.0,
    "musicbrainz": "https://musicbrainz.org/release-group/1d247c61-91af-37e4-9ba3-f1629cd1dc81"
   },
   {
@@ -11685,6 +12007,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Led Zeppelin & country shelf",
+   "shelf_pos": 18.0,
    "musicbrainz": "https://musicbrainz.org/release-group/b93cd475-3dcb-3284-a9ab-e0e4f724b85c"
   },
   {
@@ -11752,6 +12076,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Led Zeppelin & country shelf",
+   "shelf_pos": 20.0,
    "musicbrainz": "https://musicbrainz.org/release-group/4fe1b8f8-7574-4c99-b3ce-167a89d240e1"
   },
   {
@@ -11814,6 +12140,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "70s rock shelf (in plastic sleeves)",
+   "shelf_pos": 8.0,
    "musicbrainz": "https://musicbrainz.org/release-group/7c10af57-6f23-3e80-b9f0-b1a189c06b28"
   },
   {
@@ -11946,6 +12274,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Led Zeppelin & country shelf",
+   "shelf_pos": 43.0,
    "musicbrainz": "https://musicbrainz.org/release-group/330a7050-5048-34d9-bf4c-555ed719880a"
   },
   {
@@ -12008,6 +12338,8 @@
     }
    ],
    "last_played": null,
+   "shelf": "Led Zeppelin & country shelf",
+   "shelf_pos": 17.0,
    "musicbrainz": "https://musicbrainz.org/release-group/cb1c5a19-7cce-3409-b8b3-9a06193a8faf"
   }
  ]
