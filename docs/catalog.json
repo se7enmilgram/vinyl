@@ -383,20 +383,20 @@
     {
      "n": "A1",
      "title": "Do You Remember House? (original album version)",
-     "heard": false
+     "heard": true
     },
     {
      "n": "AA1",
      "title": "Do You Remember House? (Bob Sinclar club mix)",
-     "heard": false
+     "heard": true
     },
     {
      "n": "AA2",
      "title": "Do You Remember House? (Azzido da Bass' Tech Drops)",
-     "heard": false
+     "heard": true
     }
    ],
-   "last_played": null,
+   "last_played": "2026-10-31",
    "shelf": "Metal rack — section with the face-out cover",
    "shelf_pos": 5.0,
    "musicbrainz": "https://musicbrainz.org/release-group/2781e862-a085-33fe-8660-9ef5c39dd9e2"
@@ -2871,12 +2871,12 @@
     {
      "n": "TWO 3",
      "title": "I Don’t Want to Know",
-     "heard": false
+     "heard": true
     },
     {
      "n": "TWO 4",
      "title": "Oh Daddy",
-     "heard": false
+     "heard": true
     },
     {
      "n": "TWO 5",
