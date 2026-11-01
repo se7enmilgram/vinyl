@@ -2861,12 +2861,12 @@
     {
      "n": "TWO 1",
      "title": "The Chain",
-     "heard": false
+     "heard": true
     },
     {
      "n": "TWO 2",
      "title": "You Make Loving Fun",
-     "heard": false
+     "heard": true
     },
     {
      "n": "TWO 3",
@@ -2884,7 +2884,7 @@
      "heard": false
     }
    ],
-   "last_played": null,
+   "last_played": "2026-10-31",
    "shelf": "Metal rack — section with the face-out cover",
    "shelf_pos": 11.0,
    "musicbrainz": "https://musicbrainz.org/release-group/416bb5e5-c7d1-3977-8fd7-7c9daf6c2be6"
