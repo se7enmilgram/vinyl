@@ -84,6 +84,10 @@ def db():
     c = sqlite3.connect(DB)
     c.row_factory = sqlite3.Row
     c.executescript(SCHEMA)
+    cols = {r[1] for r in c.execute("PRAGMA table_info(records)")}
+    if "shelf" not in cols:              # where the record lives: shelf name + left-to-right position
+        c.execute("ALTER TABLE records ADD COLUMN shelf TEXT")
+        c.execute("ALTER TABLE records ADD COLUMN shelf_pos REAL")
     return c
 
 
@@ -448,6 +452,7 @@ def export(c):
             "cover": cover(r),
             "tracks": [{"n": t["n"], "title": t["title"], "heard": any(same(h, t["title"]) for h in heard)} for t in tracks],
             "last_played": (r["last_played"] or "")[:10] or None,
+            "shelf": r["shelf"], "shelf_pos": r["shelf_pos"],
             "musicbrainz": f"https://musicbrainz.org/release-group/{r['rgid']}" if r["rgid"] else None,
         })
     return {"version": 1, "generated": dt.datetime.now(TZ).strftime("%Y-%m-%d"), "count": len(albums), "albums": albums}
@@ -654,6 +659,56 @@ def cmd_retrack(a, c):
     print(f"{changed} tracklists updated")
 
 
+def find_record(c, artist, title):
+    """The confirmed record best matching artist + title, or None."""
+    best = None
+    for r in c.execute("SELECT * FROM records WHERE status='confirmed'"):
+        if not (same(main_artist(r["artist"]), main_artist(artist)) or norm(main_artist(artist)) in norm(r["artist"])):
+            continue
+        tier = title_tier(r["title"], title) or (1 if same(r["title"], title) else 0)
+        if tier and (best is None or tier > best[0]):
+            best = (tier, r)
+    return best[1] if best else None
+
+
+def cmd_shelves(a, c):
+    """Load locations from a file: "## Shelf name" headers, then "Artist | Album" lines in left-to-right order."""
+    shelf, pos, done, missing = None, 0, 0, []
+    for line in open(a.file, encoding="utf-8"):
+        line = line.strip()
+        if line.startswith("## "):
+            shelf, pos = line[3:].strip(), 0
+        elif "|" in line and not line.startswith(("#", "?")) and shelf:
+            artist, title = (x.strip() for x in line.split("|")[:2])
+            pos += 1
+            r = find_record(c, artist, title)
+            if r:
+                c.execute("UPDATE records SET shelf=?, shelf_pos=? WHERE id=?", (shelf, pos, r["id"]))
+                done += 1
+            else:
+                missing.append(f"{shelf}: {artist} — {title}")
+    c.commit()
+    print(f"located {done} records")
+    for m in missing:
+        print("  ? not in catalog:", m)
+    unplaced = c.execute("SELECT artist, title FROM records WHERE status='confirmed' AND shelf IS NULL").fetchall()
+    if unplaced:
+        print(f"{len(unplaced)} confirmed records have no shelf yet:", "; ".join(f"{r[0]} — {r[1]}" for r in unplaced))
+
+
+def cmd_locate(a, c):
+    """Put one record on a shelf: at the end, or right after another record."""
+    if a.after:
+        ref = c.execute("SELECT shelf, shelf_pos FROM records WHERE id=?", (a.after,)).fetchone() or sys.exit("no such record")
+        shelf, pos = ref["shelf"], (ref["shelf_pos"] or 0) + 0.5
+    else:
+        shelf = a.shelf or sys.exit("give a shelf name or --after ID")
+        pos = (c.execute("SELECT MAX(shelf_pos) FROM records WHERE shelf=?", (shelf,)).fetchone()[0] or 0) + 1
+    c.execute("UPDATE records SET shelf=?, shelf_pos=? WHERE id=?", (shelf, pos, a.id))
+    c.commit()
+    print(f"{a.id}: {shelf} (position {pos})")
+
+
 def cmd_have(a, c):
     hits = 0
     for r in c.execute("SELECT * FROM records WHERE status!='rejected'"):
@@ -687,6 +742,11 @@ def main():
     s.add_argument("file"); s.add_argument("--apply", action="store_true")
     s.add_argument("--include-review", action="store_true", help="also add matches flagged for review")
     s.set_defaults(f=cmd_import)
+    s = sp.add_parser("shelves", help="load shelf locations from a file (## Shelf, then Artist | Album lines)")
+    s.add_argument("file"); s.set_defaults(f=cmd_shelves)
+    s = sp.add_parser("locate", help='put a record on a shelf: vinyl locate ID "Shelf" | --after ID')
+    s.add_argument("id", type=int); s.add_argument("shelf", nargs="?"); s.add_argument("--after", type=int)
+    s.set_defaults(f=cmd_locate)
     sp.add_parser("retrack", help="re-pick tracklists after a release-selection fix").set_defaults(f=cmd_retrack)
     s = sp.add_parser("have", help="do I have this song/artist?"); s.add_argument("query"); s.set_defaults(f=cmd_have)
     s = sp.add_parser("publish", help="write docs/catalog.json, commit, push"); s.add_argument("--dry-run", action="store_true")

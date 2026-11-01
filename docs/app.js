@@ -16,7 +16,7 @@ function render() {
     list = list.filter((a) => {
       const hit = a.tracks.filter((t) => norm(t.title).includes(q));
       hit.forEach((t) => songs.push({ t, a }));
-      return hit.length || norm(a.artist).includes(q) || norm(a.title).includes(q);
+      return hit.length || norm(a.artist).includes(q) || norm(a.title).includes(q) || norm(a.shelf).includes(q);
     });
   }
   list.sort(state.sort === "recent"
@@ -37,6 +37,17 @@ function render() {
     </button>`).join("");
 }
 
+// "Shelf · between X and Y": neighbours are the quickest way to find a spine.
+function where(a) {
+  if (!a.shelf) return "Not shelved yet";
+  const row = state.albums.filter((x) => x.shelf === a.shelf).sort((x, y) => x.shelf_pos - y.shelf_pos);
+  const i = row.findIndex((x) => x.id === a.id);
+  const name = (x) => `<i>${esc(x.title)}</i>`;
+  const l = row[i - 1], r = row[i + 1];
+  const near = l && r ? `between ${name(l)} and ${name(r)}` : l ? `after ${name(l)} (end of shelf)` : r ? `before ${name(r)} (start of shelf)` : "";
+  return `${esc(a.shelf)}${near ? " · " + near : ""}`;
+}
+
 function open(id) {
   const a = state.albums.find((x) => x.id === id);
   if (!a) return;
@@ -45,6 +56,7 @@ function open(id) {
     <button class="close" aria-label="Close">×</button>
     <div class="dhead">${a.cover ? art(a) : ""}<div><h2>${esc(a.title)}</h2>
       <div class="a">${esc(a.artist)}${a.year ? " · " + esc(a.year) : ""} · ${a.kind === '7"' ? "45" : "LP"}</div>
+      <div class="y">📍 ${where(a)}</div>
       ${a.last_played ? `<div class="y">Last played ${esc(a.last_played)}</div>` : ""}
       ${a.musicbrainz ? `<div class="y"><a href="${esc(a.musicbrainz)}" style="color:var(--accent)">MusicBrainz</a></div>` : ""}</div></div>
     <ol>${tracks}</ol>`;
